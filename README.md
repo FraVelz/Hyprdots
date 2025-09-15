@@ -12,6 +12,12 @@ This repository will contain my personal Arch Linux configuration.
 
 > Note: All configuration files and directories that begin with "." have had the period removed so they aren't shared as hidden files in my code editor :v
 
+**Image 1:**
+![Image 1](./images/image1.png) 
+
+**Image 2:**
+![Image 2](./images/image2.png) 
+
 **Update:** 0.0.2
 
 **Author:** Fravelz
