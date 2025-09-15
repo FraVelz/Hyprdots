@@ -1,14 +1,15 @@
-# config-ArchLinux
+#config-ArchLinux
 
-En este repositorio estara la configuracion y guia para arch linux.
+This repository will contain my personal Arch Linux configuration.
 
-1. archivos de configuracion ubicados en ~/.config/ (estan en la carpeta ./config/)
+1. Configuration files located in ~/.config/ (they're in the ./config/ folder).
 
-2. archivos de configuracion ubicados en ~/ (estan en la carpeta inicial ./)
+2. Configuration files located in ~/ (they're in the initial ./ folder).
 
-> Nota: Todos los archivos y directorios de configuracion que comienzan con ".", se les ha quitado el punto para que no se comporten como archivos ocultos en mi editor de codigo :v
+3. ./pkglist.txt file (contains all the packages I use).
+
+> Note: All configuration files and directories that begin with "." have had the period removed so they aren't shared as hidden files in my code editor :v
 
 **Update:** 0.0.2
 
 **Author:** Fravelz
-
