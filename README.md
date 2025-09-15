@@ -1,4 +1,6 @@
-#config-ArchLinux
+# config-ArchLinux
+
+#1 repository for my arch linux configuration.
 
 This repository will contain my personal Arch Linux configuration.
 
