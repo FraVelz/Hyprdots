@@ -1,4 +1,4 @@
-# config-ArchLinux
+# Hyprdots (Arch Linux - Hyprland Config and more...).
 
 #1 repository for my arch linux configuration.
 
