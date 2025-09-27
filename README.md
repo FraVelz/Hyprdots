@@ -1,30 +1,29 @@
-# Hyprdots (Arch Linux - Hyprland Config and more...).
+# Hyprdots (Arch Linux - Hyprland Config y más...).
 
-#1 repository for my arch linux configuration.
+Repositorio n.° 1 para mi configuración de Arch Linux.
 
-This repository will contain my personal Arch Linux configuration.
+Este repositorio contendrá mi configuración personal de Arch Linux.
 
-1. Configuration files located in ~/.config/ (they're in the ./config/ folder).
+1. Archivos de configuración ubicados en ~/.config/ (en la carpeta ./config/).
 
-2. Configuration files located in ~/ (they're in the initial ./ folder).
+2. Archivos de configuración ubicados en ~/ (en la carpeta ./ inicial).
 
-3. ./pkglist.txt file (contains all the packages I use).
+3. Archivo ./pkglist.txt (contiene todos los paquetes que uso).
 
-> Note: All configuration files and directories that begin with "." have had the period removed so they aren't shared as hidden files in my code editor :v
+> Nota: Todos los archivos de configuración y directorios que empiezan por "." Se les quitó el punto para que no se compartan como archivos ocultos en mi editor de código :v
 
-**Image 1:**
+**Imagen 1:**
 
-![Image 1](./images/image1.png) 
+![Imagen 1](./images/image1.png)
 
-**Image 2:**
+**Imagen 2:**
 
-![Image 2](./images/image2.png) 
+![Imagen 2](./images/image2.png)
 
-**Image 3:**
+**Imagen 3:**
 
-![Image 3](./images/image3.png) 
+![Imagen 3](./images/image3.png)
 
+**Actualización:** 0.0.2
 
-**Update:** 0.0.2
-
-**Author:** Fravelz
+**Autor:** Fravelz
