@@ -24,6 +24,6 @@ Este repositorio contendrá mi configuración personal de Arch Linux.
 
 ![Imagen 3](./images/image3.png)
 
-**Actualización:** 0.0.2
+**Actualización:** 0.0.3
 
 **Autor:** Fravelz

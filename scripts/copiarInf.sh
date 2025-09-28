@@ -4,11 +4,17 @@ echo ""
 echo " [+] Actualizando archivos de Hyprdots..."
 echo ""
 
-# Ruta actual
+# ruta actual
 ruta="$HOME/Documentos/Hyprdots"
 
 # hyprland
-cp -r -u $HOME/.config/hypr $ruta/config/
+cp -ru $HOME/.config/hypr/* $ruta/config/hypr/
+
+# temas
+cp -ru $HOME/.config/themes/* $ruta/config/themes/
+
+# bin
+cp -ru $HOME/.config/bin/* $ruta/config/bin/
 
 # waybar
 cp -u $HOME/.config/waybar/config.jsonc $ruta/config/waybar/config.jsonc 
@@ -18,10 +24,10 @@ cp -u $HOME/.config/waybar/colors.css $ruta/config/waybar/colors.css
 # nvim
 cp -ru $HOME/.config/nvim/* $ruta/config/nvim/
 
-# Kitty
+# kitty
 cp -ru $HOME/.config/kitty/* $ruta/config/kitty/
 
-# Zsh
+# zsh
 cp -u $HOME/.zshrc $ruta/home/
 
 echo ""

@@ -10,6 +10,12 @@ ruta="$HOME/Documentos/Hyprdots"
 # hyprland
 cp -ru $ruta/config/hypr/* $HOME/.config/hypr/ 
 
+# Temas
+cp -ru $ruta/config/themes/* $HOME/.config/themes/ 
+
+# bin
+cp -u $ruta/config/bin/* $HOME/.config/bin/
+
 # waybar
 cp -u $ruta/config/waybar/config.jsonc $HOME/.config/waybar/config.jsonc 
 cp -u $ruta/config/waybar/style.css $HOME/.config/waybar/style.css 
@@ -23,6 +29,8 @@ cp -ru $ruta/config/kitty/* $HOME/.config/kitty/
 
 # zsh
 cp -u $ruta/home/.zshrc $HOME/.zshrc 
+
+pkill waybar && waybar &
 
 echo ""
 echo "¡Listo! Todos configuraciones estan en local."

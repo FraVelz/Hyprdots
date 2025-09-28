@@ -9,6 +9,7 @@
     "margin-bottom": 0,
     "spacing": 1,
     "reload_style_on_change": true,
+
     // Choose the order of the modules
     "modules-left": [
         "group/custom-group",
@@ -105,16 +106,7 @@
     "river/tags": {
         "num-tags": 7,
         "tag-labels": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "", "", "", "", "", "", "", "", "", ""
         ],
     },
     "tray": {
@@ -133,11 +125,8 @@
         "critical-threshold": 80,
         "interval": 2,
         "format": " {temperatureC:>2}°C",
-        "format-icons": [
-            "0",
-            "",
-            ""
-        ],
+        "format-icons": [ "0", "", ""],
+
         "on-click": "hyprctl dispatcher togglespecialworkspace monitor",
     },
     "cpu": {

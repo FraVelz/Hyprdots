@@ -1,155 +1,99 @@
-@import "colors.css";
+ /* Estilos generales *********************************** */
 
 * {
-    min-height: 0;
-    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-family: "JetBrainsMono Nerd Font", monospace; 
+    font-size: 14px; 
+    color: #cdd6f4; 
+} 
+
+window#waybar { 
+    background: transparent;
+} 
+
+#workspaces, #clock, #cpu, #memory, #network, #pulseaudio, #backlight, #battery {
+    background: rgba(30, 30, 46, 0.85); 
+    border: 2px #9ECDDF solid;
 }
 
-/* Waybar */
-#waybar {
-    background-color: transparent;
+#workspaces, #workspaces button, #clock {
+    border-radius: 10px;
 }
 
-#waybar .module {
-    color: @text;
-    padding: 0px 2px;
-    padding-left: 2px;
-    margin: -10px 5px -10px;
-    border: 2px;
+#cpu {
+    border-radius: 10px 0px 0px 10px;
+    border-right: none;
 }
 
-#waybar .module:hover {
-    color: @subtext0;
+#memory, #network, #pulseaudio, #backlight {
+    border-left: none;
+    border-right: none;
 }
 
-#window#waybar {
-    color: @text;
-    background-color: @base;
-    transition-property: background-color;
-    transition-duration: 0.5s;
-    border: 2px solid @mauve;
+#battery {
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
 }
 
-button {
-    box-shadow: inset 0 -3px transparent;
-    border: none;
-    border-radius: 2px;
-    padding: 0px 5px;
-    margin: 5px 0px;
-}
+ /* Workspaces ****************************************** */
+#workspaces button { 
+  background: transparent;
+  color: #cdd6f4; 
 
-button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px transparent;
-}
+  border-left: none;
+  margin: 1px; 
+} 
 
-#workspaces button {
-    box-shadow: none;
-    text-shadow: none;
-    padding: 0px;
-    border-radius: 8px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    margin-left: 0px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-right: 0px;
-    color: @text;
-    animation: ws_normal 20s ease-in-out 1;
-}
+#workspaces button:hover { 
+  background: rgba(255, 255, 255, 0.3); 
+} 
 
-#workspaces button.active {
-    min-width: 18px;
-    background: inherit;
-    color: @text;
-    border-radius: 12px;
-    margin-left: 0px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-right: 0px;
-    animation: ws_active 20s ease-in-out 1;
-    transition: all 0.4s cubic-bezier(.55, -0.68, .48, 1.682);
-}
+ /* Reloj   */
+#clock { 
 
-#workspaces button:hover {
-    background: @base;
-    color: @text;
-    animation: ws_hover 20s ease-in-out 1;
-    transition: all 0.3s cubic-bezier(.55, -0.68, .48, 1.682);
-}
+  padding: 0 8px; 
+  color: #fab387; 
+} 
 
-#tags button {
-    color: @mauve;
-    background: @base;
-    border-radius: 0px;
-    padding: 0px 0px;
-    margin: 5px 0px;
-}
+ /* CPU   */
+#cpu { 
+  padding: 0 8px; 
+  color: #f38ba8; 
+} 
 
-#tags button.occupied {
-    color: @mantle;
-}
+ /* Memoria   */
+#memory { 
+  padding: 0 8px; 
+  color: #a6e3a1; 
+} 
 
-#tags button.focused {
-    color: @sky;
-}
+ /* Red   */
+#network { 
+  padding: 0 8px; 
+  color: #89b4fa; 
+} 
 
-#tags button.urgent {
-    color: @red;
-}
+ /* Volumen   */
+#pulseaudio { 
+  padding: 0 8px; 
+  color: #f9e2af; 
+} 
 
-#clock {
-    font-size: 14px;
-}
+#backlight { color: #f2cdcd; padding: 0 8px; } 
 
-#custom-notification {
-    color: @text;
-}
+ /* Batería   */
+#battery { 
+  padding: 0 16px; 
+  color: #94e2d5; 
+} 
+#battery.charging { 
+  color: #a6e3a1; 
+} 
+#battery.warning { 
+  color: #f38ba8; 
+} 
 
-#group-launch,
-#group-workspaces,
-#group-mpris,
-#group-clock,
-#custom-group,
-#custom-group0,
-#group-right,
-#custom-group2,
-#group-left,
-#group-battery {
-    margin: 3px 2px;
-    border-radius: 18px;
-    background: @base;
-    border: 2px;
-}
+ /* Bandeja  */
+#tray { 
+  padding: 0 8px; 
+} 
 
-#custom-group0 {
-    margin: 3px 2px;
-    background: @base;
-    border: 2px;
-    border-radius: 16px;
-}
-
-#network.disconnected,
-#pulseaudio.muted,
-#wireplumber.muted {
-    color: @red;
-}
-
-#battery.charging,
-#battery.plugged {
-    color: @green;
-}
-
-label:focus {
-    background-color: @base;
-}
-
-#battery.critical:not(.charging) {
-    color: @red;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}

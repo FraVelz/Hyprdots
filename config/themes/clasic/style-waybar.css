@@ -1,0 +1,98 @@
+ /* Estilos generales *********************************** */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace; 
+    font-size: 14px; 
+    color: #cdd6f4; 
+} 
+
+window#waybar { 
+    background: transparent;
+} 
+
+#workspaces, #clock, #cpu, #memory, #network, #pulseaudio, #backlight, #battery {
+    background: rgba(30, 30, 46, 0.85); 
+    border: 2px #9ECDDF solid;
+}
+
+#workspaces, #workspaces button, #clock {
+    border-radius: 10px;
+}
+
+#cpu {
+    border-radius: 10px 0px 0px 10px;
+    border-right: none;
+}
+
+#memory, #network, #pulseaudio, #backlight {
+    border-left: none;
+    border-right: none;
+}
+
+#battery {
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
+}
+
+ /* Workspaces ****************************************** */
+#workspaces button { 
+  background: transparent;
+  color: #cdd6f4; 
+
+  border-left: none;
+  margin: 1px; 
+} 
+
+#workspaces button:hover { 
+  background: rgba(255, 255, 255, 0.3); 
+} 
+
+ /* Reloj   */
+#clock { 
+
+  padding: 0 8px; 
+  color: #fab387; 
+} 
+
+ /* CPU   */
+#cpu { 
+  padding: 0 8px; 
+  color: #f38ba8; 
+} 
+
+ /* Memoria   */
+#memory { 
+  padding: 0 8px; 
+  color: #a6e3a1; 
+} 
+
+ /* Red   */
+#network { 
+  padding: 0 8px; 
+  color: #89b4fa; 
+} 
+
+ /* Volumen   */
+#pulseaudio { 
+  padding: 0 8px; 
+  color: #f9e2af; 
+} 
+
+#backlight { color: #f2cdcd; padding: 0 8px; } 
+
+ /* Batería   */
+#battery { 
+  padding: 0 16px; 
+  color: #94e2d5; 
+} 
+#battery.charging { 
+  color: #a6e3a1; 
+} 
+#battery.warning { 
+  color: #f38ba8; 
+} 
+
+ /* Bandeja  */
+#tray { 
+  padding: 0 8px; 
+} 

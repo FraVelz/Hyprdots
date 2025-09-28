@@ -11,7 +11,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.config/themes/colors.sh
+source $HOME/.config/bin/colors.sh
 
 # Pronmpt configuration
 
@@ -34,4 +34,3 @@ function parse_git_branch {
 PROMPT='%F{cyan}󰣇 %f %F{magenta}%n%f $(dir_icon) %F{red}%~%f%${vcs_info_msg_0_} %F{yellow}$(parse_git_branch)%f %(?.%B%F{green}.%F{red})%f%b '
 
 export PATH="$HOME/.config/bin:$PATH"
-

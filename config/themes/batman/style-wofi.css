@@ -1,0 +1,30 @@
+window {
+    margin: 0px;
+    border: 2px solid #88c0d0;
+    background-color: #2e3440;
+    border-radius: 12px;
+}
+
+#input {
+    margin: 8px;
+    border: none;
+    background-color: #3b4252;
+    color: #eceff4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#entry {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: #4c566a;
+    color: #88c0d0;
+}
+
+#scroll {
+    margin: 8px;
+}
+
