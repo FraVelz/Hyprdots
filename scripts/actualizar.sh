@@ -1,31 +1,41 @@
 #!/bin/bash
 
 echo ""
-echo " [+] Actualizando Repositorio local..."
+echo " [+] Actualizando en local..."
 echo ""
 
-# Ruta actual
+# ruta actual
 ruta="$HOME/Documentos/Hyprdots"
 
 # hyprland
-cp -r $HOME/.config/hypr $ruta/config/
+cp -ru $ruta/config/hypr/* $HOME/.config/hypr/ 
 
 # waybar
-cp $HOME/.config/waybar/config.jsonc $ruta/config/waybar/config.jsonc 
-cp $HOME/.config/waybar/style.css $ruta/config/waybar/style.css
-cp $HOME/.config/waybar/colors.css $ruta/config/waybar/colors.css
+cp -u $ruta/config/waybar/config.jsonc $HOME/.config/waybar/config.jsonc 
+cp -u $ruta/config/waybar/style.css $HOME/.config/waybar/style.css 
+cp -u $ruta/config/waybar/colors.css $HOME/.config/waybar/colors.css 
 
 # nvim
-cp -r $HOME/.config/nvim $ruta/config/
+cp -ru $ruta/config/nvim/* $HOME/.config/nvim/
 
-# Kitty
-cp -r $HOME/.config/kitty $ruta/config/
+# kitty
+cp -ru $ruta/config/kitty/* $HOME/.config/kitty/
 
-# Zsh
-cp $HOME/.zshrc $ruta/
+# zsh
+cp -u $ruta/home/.zshrc $HOME/.zshrc 
 
 echo ""
-echo "¡Listo! Todos configuraciones actualizadas"
+echo "¡Listo! Todos configuraciones estan en local."
 echo ""
+
+: '
+sudo chown -R fravelz:fravelz ~/.config/nvim
+
+como estamos modificando la carpeta raiz de .config/nvim en este 
+apartado no se puede modificar las carpetas y se nesesitan del uso del 
+super usuario (root, es decir del comando sudo), entonces para 
+arreglar esos problemas cambiamos de propiedad de usuario a nuestro 
+usuario personal.
+'
 
 # Autor: Fravelz
