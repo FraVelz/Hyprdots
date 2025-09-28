@@ -1,4 +1,4 @@
-# Hyprdots (Arch Linux - Hyprland Config y más...).
+# Hyprdots
 
 Repositorio n.° 1 para mi configuración de Arch Linux.
 
@@ -14,15 +14,15 @@ Este repositorio contendrá mi configuración personal de Arch Linux.
 
 **Imagen 1:**
 
-![Imagen 1](./images/image1.png)
+![Imagen 1](./images/.png)
 
 **Imagen 2:**
 
-![Imagen 2](./images/image2.png)
+![Imagen 2](./images/.png)
 
 **Imagen 3:**
 
-![Imagen 3](./images/image3.png)
+![Imagen 3](./images/.png)
 
 **Actualización:** 0.0.3
 
