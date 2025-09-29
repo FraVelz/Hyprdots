@@ -8,27 +8,34 @@ echo ""
 ruta="$HOME/Documentos/Hyprdots"
 
 # hyprland
-cp -ru $ruta/config/hypr/* $HOME/.config/hypr/ 
+cp -rv $ruta/config/hypr/* $HOME/.config/hypr/
+echo -e " [+] Hypland Listo!!! \n"
 
 # Temas
-cp -ru $ruta/config/themes/* $HOME/.config/themes/ 
+cp -rv $ruta/config/themes/* $HOME/.config/themes/ 
+echo -e " [+] Temas Listo!!! \n"
 
 # bin
-cp -u $ruta/config/bin/* $HOME/.config/bin/
+cp -rv $ruta/config/bin/* $HOME/.config/bin/
+echo -e " [+] Bin Listo!!! \n"
 
 # waybar
-cp -u $ruta/config/waybar/config.jsonc $HOME/.config/waybar/config.jsonc 
-cp -u $ruta/config/waybar/style.css $HOME/.config/waybar/style.css 
-cp -u $ruta/config/waybar/colors.css $HOME/.config/waybar/colors.css 
+cp -v $ruta/config/waybar/config.jsonc $HOME/.config/waybar/config.jsonc 
+cp -v $ruta/config/waybar/style.css $HOME/.config/waybar/style.css 
+cp -v $ruta/config/waybar/colors.css $HOME/.config/waybar/colors.css 
+echo -e " [+] Waybar Listo!!! \n"
 
 # nvim
-cp -ru $ruta/config/nvim/* $HOME/.config/nvim/
+cp -rv $ruta/config/nvim/* $HOME/.config/nvim/
+echo -e " [+] Nvim Listo!!! \n"
 
 # kitty
-cp -ru $ruta/config/kitty/* $HOME/.config/kitty/
+cp -rv $ruta/config/kitty/* $HOME/.config/kitty/
+echo -e " [+] Kitty Listo!!! \n"
 
 # zsh
-cp -u $ruta/home/.zshrc $HOME/.zshrc 
+cp -v $ruta/home/.zshrc $HOME/.zshrc 
+echo -e " [+] Zsh Listo!!! \n"
 
 pkill waybar && waybar &
 

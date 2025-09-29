@@ -8,7 +8,7 @@
 
 window#waybar { 
     background: transparent;
-} 
+}
 
 #workspaces, #clock, #cpu, #memory, #network, #pulseaudio, #backlight, #battery {
     background: rgba(30, 30, 46, 0.85); 
@@ -24,9 +24,7 @@ window#waybar {
     border-right: none;
 }
 
-#memory, #network, #pulseaudio, #backlight {
-    border-left: none;
-    border-right: none;
+#memory, #network, #pulseaudio, #backlight { border-left: none; border-right: none;
 }
 
 #battery {
@@ -96,4 +94,3 @@ window#waybar {
 #tray { 
   padding: 0 8px; 
 } 
-
