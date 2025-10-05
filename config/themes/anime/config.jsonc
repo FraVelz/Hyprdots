@@ -1,52 +1,51 @@
-//--- ZepharDev Nvim
 {
   "layer": "top",
   "position": "top",
   "height": 25,
-  "margin-left": 5,
-  "margin-right": 5,
-  "margin-top": 5,
-  "margin-bottom": 0,
   "spacing": 1,
   "reload_style_on_change": true,
 
-  // Choose the order of the modules
+  //* Orden de los modulos *******************************************
 
   "modules-left": [  
     "group/group-1",
     "group/group-9",
-    "group/group-6",
+    "group/group-6"
   ],
+
   "modules-center": [
     "group/group-5"
-  ] ,
+  ],
+
   "modules-right": [
     "group/group-4",
     "group/group-3",
     "group/group-2"
   ],
+  
   "group/group-1": {
     "orientation": "horizontal",
-    "modules": [
-      "hyprland/workspaces",
-    ],
+    "modules": [ "hyprland/workspaces" ]
   },
+
   "group/group-2": {
     "orientation": "horizontal",
     "modules": [
       "cpu",
       "temperature",
       "disk",
-      "memory",
-    ],
+      "memory"
+    ]
   },
+
   "group/group-3": {
     "orientation": "horizontal",
     "modules": [
       "wireplumber",
-      "backlight",
-    ],
+      "backlight"
+    ]
   },
+
   "group/group-4": {
     "orientation": "horizontal",
     "modules": [
@@ -54,100 +53,95 @@
       "battery",
       "network",
       "custom/power",
-      "custom/wallpaper",
-    ],
+      "custom/wallpaper"
+    ]
   },
+
   "group/group-5": {
     "orientation": "horizontal",
-    "modules": [
-      "clock"
-    ],
+    "modules": [ "clock" ]
   },
+  
   "group/group-6": {
     "orientation": "horizontal",
     "modules": [
       "custom/pacman",
-      "custom/pkg-aur",
-    ],
+      "custom/pkg-aur"
+    ]
   },
+
   "group/group-8": {
     "orientation": "horizontal",
     "modules": [
       "custom/discord",
       "custom/spotify",
-      "custom/firefox",
-    ],
+      "custom/firefox"
+    ]
   },
+
   "group/group-7": {
     "orientation": "horizontal",
     "modules": [
       "custom/whatsapp",
       "custom/github",
-      "custom/reddit",
-    ],
+      "custom/reddit"
+    ]
   },
+
   "group/group-9": {
     "orientation": "horizontal",
-    "modules": [
-      "mpris",
-      "custom/previous",
-      "custom/pause",
-      "custom/next",
-    ],
+    "modules": [ "mpris" ]
   },
+
   "group/group-10": {
     "orientation": "horizontal",
-    "modules": [
-      "hyprland/window"
-    ],
+    "modules": [ "hyprland/window" ]
   },
-  // Modules configuration
+
+  //* Configuracion de Modulos ***************************************
+
   "hyprland/workspaces": {
     "on-click": "activate",
     "activate-only": false,
     "all-outputs": true,
     "format": "{name}",
+
     "format-icons": {
-      "1": "*",  
-      "2": "*",   
-      "3": "*",     
-      "4": "*",    
-      "5": "*",   
-      "6": "*",     
-      "7": "*",    
-      "8": "*",     
-      "9": "*",    
-      "10": "*",
+      "1": "*", "2": "*", "3": "*", "4": "*", "5": "*", 
+      "6": "*", "7": "*", "8": "*", "9": "*", "10": "*",
+
        "urgent": "*",
        "active": "*",
-       "default": "*",
+       "default": "*"
     },
+    
     "persistent_workspaces": {
       "[]": 3
     }
   },
+
   "hyprland/window": {
     "format": "{}",
     "max-length": 18,
-    "separate-outputs": true,
+    "separate-outputs": true
   },
 
   "river/tags": {
     "num-tags": 7,
-    "tag-labels": ["", "", "", "", "", "", "", "", "", ""],
+    "tag-labels": ["", "", "", "", "", "", "", "", "", ""]
   },
 
   "tray": {
     "icon-size": 16,
     "spacing": 5,
-    "show-passive-items": true,
+    "show-passive-items": true
   },
 
 
   "clock": {
     "format": "{:%H:%M - %h %d}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}",
+    "format-alt": "{:%Y-%m-%d}"
   },
 
   "temperature": {
@@ -158,28 +152,28 @@
     "interval": 2,
     "format": " {temperatureC:>2}°C",
     "format-icons": ["0", "", ""],
-    "on-click": "hyprctl dispatcher togglespecialworkspace monitor",
+    "on-click": "hyprctl dispatcher togglespecialworkspace monitor"
   },
 
   "cpu": {
     "interval": 2,
     "format": " {usage:>2}%",
-    "on-click": "hyprctl dispatcher togglespecialworkspace monitor",
+    "on-click": "hyprctl dispatcher togglespecialworkspace monitor"
   },
 
   "memory": {
     "interval": 2,
-    "format": " {:>2}%",
+    "format": " {:>2}%"
   },
 
   "disk": {
     "interval": 15,
-    "format": "󰋊 {percentage_used:>2}%",
+    "format": "󰋊 {percentage_used:>2}%"
   },
   "backlight": {
     // "device": "acpi_video1",
     "format": "{icon} {percent:>2}%",
-    "format-icons": [ "", "", "", "", "", "", "", "", ""],
+    "format-icons": [ "", "", "", "", "", "", "", "", ""]
   },
 
   "bluetooth": {
@@ -236,6 +230,7 @@
     "format-muted": "󰖁 {volume}%",
     "format-source": " {volume}%",
     "format-source-muted": "",
+
     "format-icons": {
       "headphone": "󰋋",
       "hands-free": "󱡒",
@@ -243,9 +238,10 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", ""],
+      "default": ["", "", ""]
     },
-    "on-click": "pavucontrol",
+
+    "on-click": "pavucontrol"
   },
 
   "wireplumber": {
@@ -253,7 +249,7 @@
     "format-muted": "󰖁 {volume:>3}%",
     "format-bluetooth": "{icon} {volume:>2}% 󰂯", //{format_source}",
     "format-bluetooth-muted": "󰖁 {icon} 󰂯", //{format_source}",
-    "format-icons": ["", "", ""],
+    "format-icons": ["", "", ""]
   },
 
   "cava": {
@@ -274,17 +270,18 @@
     "noise_reduction": 0.77,
     "input_delay": 2,
     "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+
     "actions": {
-      "on-click-right": "mode",
-    },
+      "on-click-right": "mode"
+    }
   },
 
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
       "activated": "󰈈",
-      "deactivated": "󰈉",
-    },
+      "deactivated": "󰈉"
+    }
   },
 
    // Module Custom
@@ -295,8 +292,8 @@
     "format": "󰏔 {}",
     "tooltip": true,
     "tooltip-format": "AUR packages"
-
   },
+
   "custom/power": {
     "format": "{icon}",
     "format-icons": "", //  
@@ -304,14 +301,16 @@
     "on-click": "wlogout",
     "tooltip-format": "Power Menu",
   },
+
   "custom/pacman": {
     "format": "  {}",
     "interval": 3600, // every hour
     "exec": "checkupdates | wc -l", // # of updates
     "exec-if": "exit 0", // always run; consider advanced run conditions
     "on-click": "foot -e 'sudo pacman -Syu'; pkill ZepNet-SIGRTMIN+8 waybar", // update system
-    "signal": 8,
+    "signal": 8
   },
+
   "custom/notification": {
     "tooltip": false,
     "format": " 󰂚",
@@ -369,8 +368,9 @@
      "min": 0,
      "max": 100,
      "orientation": "horizontal",
-     "device": "intel_backlight",
+     "device": "intel_backlight"
    },
+
    "mpris": {
      "format": "{player_icon} {title} - {artist} ",
      "format-paused": "{status_icon} {title} - {artist}",
@@ -387,8 +387,9 @@
      "tooltip-format": "Playing: {title} - {artist}",
      "tooltip-format-paused": "Paused: {title} - {artist}",
      "min-length": 5,
-     "max-length": 15,
+     "max-length": 15
    },
+
   // Custom module configuration for waybar personalization modules.
 
    "custom/github": {   
@@ -411,30 +412,36 @@
       "on-click": "spotify", 
       "tooltip": false,
    },
+
     "custom/discord": {   
      "format": " ",
     "on-click": "discord",
     "tooltip": false,
    },
+
     "custom/separator": {
     "format": "|",
     "tooltip": false,
    },
+
     "custom/wallpaper": {
      "format": " ",
      "on-click": "~/.config/rofi/wallselect/script.sh",
      "tooltip": false,
    },
+
     "custom/whatsapp": {
      "format": "󰖣",
      "on-click": "xdg-open https://web.whatsapp.com",
      "tooltip": false,
    },
+
     "custom/instagram": {
     "format": "",
     "on-click": "xdg-open https://wwww.instagram.com",
     "tooltip": false,
   },
+  
     "custom/ip": {
     "format": {},
     "exec": "~/.config/waybar/scripts/ip.sh",
@@ -447,37 +454,7 @@
     "exec": "~/.config/waybar/scripts/weather.sh",
     "tooltip": false,
   },
-
-  // Experimental module for music player of playerctl
-  // this module; Next, Pause, Previous 
-  "custom/next": {
-    "format": "󰙡 ",
-    "on-click": "playerctl --player=spotify next && playerctl --player=youtube-music next",
-    "tooltip": false,
-  },
-  "custom/pause": {
-    "format": "{icon}",
-//    "exec": "playerctl -l 2>/dev/null | head -n 1",
-    "on-click": "playerctl --player=spotify play-pause",
-    "tooltip": false,
-    "format-icons": [ "", "" ],
-  },
-  "custom/previous": {
-    "format": "󰙣",
-    "on-click": "playerctl --player=spotify previous && playerctl --player=youtube-music previous",
-    "tooltip": false,
-  },
-  "custom/music": {
-    "exec": "playerctl -p $(playerctl -l | head -n 1) status",
-    "on-click": "playerctl -p $(playerctl -l | head -n 1) play-pause",
-    "on-scroll-up": "playerctl -p $(playerctl -l | head -n 1) next",
-    "on-scroll-down": "playerctl -p $(playerctl -l | head -n 1) previous",
-    "format": "{icon} {status}",
-    "tooltip": "Reproductor de Música",
-    "icon": "",
-    "max-length": 15
-  },
-
+  
   "custom/catppuccin-theme": {
     "format": "󰏘",
     "on-click": "~/.config/waybar/scripts/catppuccin.sh",
@@ -496,6 +473,11 @@
     "tooltip-format-ethernet": "{ifname} 󰌘",
     "tooltip-format-disconnected": "󰌙 Disconnected",
     "max-length": 16,
-    "min-length": 14,
-  },
+    "min-length": 14
+  }
 } 
+
+//* Modificador: Fravelz
+
+//* Creditos (Autor Original, estilo cappuccine): 
+//*           ZepharDev Nvim
