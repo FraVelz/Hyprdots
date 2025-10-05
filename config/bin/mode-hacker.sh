@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Tiempo de Espera :v
-sleep 1.5
+sleep 0.5
 
 # 1) Abrir primera ventana. (x)
 hyprctl dispatch -- exec kitty --title a &

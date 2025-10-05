@@ -26,6 +26,6 @@ Repositorio n.° 1 de mi configuración de Arch Linux.
 
 ![Imagen 3](./images/.png)
 
-**Actualización:** 0.0.3
+**Actualización:** 0.0.4
 
 **Autor:** Fravelz

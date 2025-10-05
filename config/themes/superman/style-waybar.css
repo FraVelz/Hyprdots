@@ -1,96 +1,162 @@
- /* Estilos generales *********************************** */
+@import "colors.css";
 
 * {
-    font-family: "JetBrainsMono Nerd Font", monospace; 
-    font-size: 14px; 
-    color: #cdd6f4; 
-} 
-
-window#waybar { 
-    background: transparent;
+    min-height: 0;
+    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
 }
 
-#workspaces, #clock, #cpu, #memory, #network, #pulseaudio, #backlight, #battery {
-    background: rgba(30, 30, 46, 0.85); 
-    border: 2px #9ECDDF solid;
+#waybar { background-color: transparent; }
+
+#waybar .module {
+    color: @text;
+    padding: 0px 0px;
+    padding-left: 2px;
+    margin: -10px 5px -10px;
+    border: 2px;
 }
 
-#workspaces, #workspaces button, #clock {
-    border-radius: 10px;
+#waybar .module:hover {
+    color: @mauve;
 }
 
-#cpu {
-    border-radius: 10px 0px 0px 10px;
-    border-right: none;
+#window#waybar {
+    color: @text;
+    background-color: @base;
+    transition-property:  background-color;
+    transition-duration: 0.5s;
+    border: 2px solid @mauve;
 }
 
-#memory, #network, #pulseaudio, #backlight { border-left: none; border-right: none;
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 9999px;
+    padding: 0px 5px;
+    margin: 5px 0px;
 }
 
-#battery {
-    border-radius: 0px 10px 10px 0px;
-    border-left: none;
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px transparent;
 }
 
- /* Workspaces ****************************************** */
-#workspaces button { 
-  background: transparent;
-  color: #cdd6f4; 
+#workspaces button {
+    border-radius: 9999px;
 
-  border-left: none;
-  margin: 1px; 
-} 
+    box-shadow: none;
+    text-shadow: none;
+    
+    margin-left: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0px;
 
-#workspaces button:hover { 
-  background: rgba(255, 255, 255, 0.3); 
-} 
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    color: @text;
+    animation: ws_normal 20s ease-in-out 1;
+}
 
- /* Reloj   */
-#clock { 
+#workspaces button.active {
+    background: @mauve;
+    color: @crust;
+    border-radius: 9999px;
 
-  padding: 0 8px; 
-  color: #fab387; 
-} 
+    margin-left: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0px;
 
- /* CPU   */
-#cpu { 
-  padding: 0 8px; 
-  color: #f38ba8; 
-} 
+    animation: ws_active 5s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+}
 
- /* Memoria   */
-#memory { 
-  padding: 0 8px; 
-  color: #a6e3a1; 
-} 
+#workspaces button:hover {
+    background: @mantle;
+    color: @text;
+    animation: ws_hover 5s ease-in-out 1;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
 
- /* Red   */
-#network { 
-  padding: 0 8px; 
-  color: #89b4fa; 
-} 
+#tags button {
+    color: @mauve;
+    background: @base;
+    border-radius: 0px;
+    padding: 0px 0px;
+    margin: 5px 0px;
+}
 
- /* Volumen   */
-#pulseaudio { 
-  padding: 0 8px; 
-  color: #f9e2af; 
-} 
+#tags button.occupied {
+    color: @mantle;
+}
 
-#backlight { color: #f2cdcd; padding: 0 8px; } 
+#tags button.focused {
+    color: @sky;
+}
 
- /* Batería   */
-#battery { 
-  padding: 0 16px; 
-  color: #94e2d5; 
-} 
-#battery.charging { 
-  color: #a6e3a1; 
-} 
-#battery.warning { 
-  color: #f38ba8; 
-} 
+#tags button.urgent {
+    color: @red;
+}
 
- /* Bandeja  */
-#tray { 
-  padding: 0 8px; 
-} 
+#clock {
+    font-size: 18px;
+}
+
+#custom-notification {
+    color: @text;
+}
+
+#group-4 {
+   margin: 2px;
+}
+
+#group-10, #group-9, #group-8, #group-7, #group-6, 
+#group-5,  #group-4, #group-3, #group-2, #group-1 {
+    padding: 0px 10px;
+    background: @mantle; /* linear-gradient(145deg, #1e1e2e 0%, #181825 100%); */
+    border: 2px;
+    border-radius: 9999px;
+}
+
+#custom-discord, #custom-reddit, #custom-instagram, 
+#catppuccin-theme, #custom-whatsapp, #custom-firefox, 
+#custom-spotify, #custom-github {
+  border: 2px;
+  font-size: 18px;
+}
+
+#bluetooth,
+#custom-pkg-aur {
+  font-size: 18px;
+  
+}
+
+#custom-next, #custom-pause, #custom-previous {
+  font-size: 18px;
+}
+
+#network.disconnected,
+#pulseaudio.muted,
+#wireplumber.muted {
+    color: @red;
+}
+
+#battery.charging,
+#battery.plugged {
+    color: @green; /* linear-gradient(145deg, @green 0%, #1e1e2e 100%); */
+}
+
+label:focus {
+    background-color: @base;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
