@@ -1,0 +1,55 @@
+* {
+    font: "JetBrainsMono Nerd Font 22";
+    background-color: transparent; 
+    selected: #89b4fa;
+}
+
+/* Ventana */
+window {
+    location: center;
+
+    background-color: #1e1e2eee; 
+
+    border: 2px;
+    border-radius: 50%;
+    border-color: #89b4fa;
+
+    padding: 20px;
+}
+
+/* Sin input */
+inputbar {
+    enabled: false;
+}
+
+/* Lista */
+listview {
+    columns: 5;
+    lines: 1;
+
+    spacing: 10px;
+    scrollbar: false;
+}
+
+/* Cada opción */
+element {
+    padding: 5px;
+    border-radius: 50%;
+
+    text-color: #89b4fa;
+}
+
+/* Opción seleccionada */
+element selected {
+    background-color: #89b4fa;
+    text-color: #1e1e2eee; 
+}
+
+/* Texto */
+element-text {
+    font: "JetBrainsMono Nerd Font 22";
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+    border-radius: 50%;
+}
+

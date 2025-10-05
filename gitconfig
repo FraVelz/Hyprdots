@@ -9,3 +9,4 @@
 	cm = commit -m
 [init]
 	defaultBranch = main
+

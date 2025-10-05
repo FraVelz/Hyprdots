@@ -34,3 +34,5 @@ function parse_git_branch {
 PROMPT='%F{cyan}󰣇 %f %F{magenta}%n%f $(dir_icon) %F{red}%~%f%${vcs_info_msg_0_} %F{yellow}$(parse_git_branch)%f %(?.%B%F{green}.%F{red})%f%b '
 
 export PATH="$HOME/.config/bin:$PATH"
+
+fastfetch

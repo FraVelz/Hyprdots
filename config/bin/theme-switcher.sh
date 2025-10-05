@@ -26,6 +26,7 @@ cp $T_PATH/style-hypr.conf $HOME/.config/hypr/colors.conf
 #cp "$T_PATH/style-wofi.css" "$WOFI_STYLE"
 
 # Aplicar colores y estilo a waybar
+#cp $T_PATH/.css $HOME/.config/waybar/style.css
 cp $T_PATH/style-waybar.css $HOME/.config/waybar/style.css
 cp $T_PATH/colors.css $HOME/.config/waybar/colors.css
 
