@@ -33,6 +33,10 @@ echo -e " [+] Nvim Listo!!! \n"
 cp -rv $ruta/config/kitty/* $HOME/.config/kitty/
 echo -e " [+] Kitty Listo!!! \n"
 
+# fastfetch
+cp -rv $ruta/config/fastfetch/* $HOME/.config/fastfetch/
+echo -e " [+] Kitty Listo!!! \n"
+
 # zsh
 cp -v $ruta/home/.zshrc $HOME/.zshrc 
 echo -e " [+] Zsh Listo!!! \n"

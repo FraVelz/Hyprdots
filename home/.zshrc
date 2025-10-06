@@ -11,7 +11,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.config/bin/colors.sh
 
 # Pronmpt configuration
 

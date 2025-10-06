@@ -1,6 +1,6 @@
 /*
  * Texto: #f38ba8;
- * Fondo: #131313; 
+ * Fondo: #131313ee; 
  * Fondo-Selecionado: #ffffff36;
 */
 
@@ -14,7 +14,7 @@
 window {
     location: center;
 
-    background-color: #131313; 
+    background-color: #131313ee; 
 
     border: 2px;
     border-radius: 50%;
