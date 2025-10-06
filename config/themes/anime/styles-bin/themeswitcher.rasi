@@ -1,3 +1,9 @@
+/*
+ * Texto: #89b4faff;
+ * Fondo: #1e1e2eee; 
+ * Fondo-Selecionado: #89b4fa30;
+*/
+
 * {
     font: "JetBrainsMono Nerd Font 22";
     background-color: transparent; 
@@ -11,7 +17,7 @@ window {
     background-color: #1e1e2eee; 
 
     border: 2px;
-    border-radius: 50%;
+    border-radius: 5%;
     border-color: #89b4fa;
 
     padding: 20px;
@@ -19,13 +25,13 @@ window {
 
 /* Sin input */
 inputbar {
-    enabled: false;
+     children: [ prompt, entry ];
 }
 
 /* Lista */
 listview {
-    columns: 5;
-    lines: 1;
+    columns: 1;
+    lines: 6;
 
     spacing: 20px;
     scrollbar: false;
@@ -56,4 +62,3 @@ element-text {
     border-radius: 50%;
 }
 
-/* Autor: Fravelz */

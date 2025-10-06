@@ -1,7 +1,7 @@
 #!/bin/bash
 
 choice=$(echo -e "\n󰦛\n󰽥\n󰍂\n" \
-    | rofi -dmenu -no-input -theme ~/.config/bin/powermenu.rasi -disable-history)
+    | rofi -dmenu -no-input -theme ~/.config/bin/styles/powermenu.rasi -disable-history)
 
 case "$choice" in
     "") systemctl poweroff ;;

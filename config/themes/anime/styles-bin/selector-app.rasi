@@ -1,3 +1,9 @@
+/*
+ * Texto: #89b4faff;
+ * Fondo: #1e1e2eee; 
+ * Fondo-Selecionado: #89b4fa30;
+*/
+
 window {
     background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid rgba(255, 255, 255, 0.1);

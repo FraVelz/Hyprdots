@@ -1,31 +1,37 @@
+/*
+ * Texto: #a6e3a1;
+ * Fondo: #131313; 
+ * Fondo-Selecionado: #ffffff36;
+*/
+
 * {
     font: "JetBrainsMono Nerd Font 22";
     background-color: transparent; 
-    color: #89b4faff;
+    color: #a6e3a1;
 }
 
 /* Ventana */
 window {
     location: center;
 
-    background-color: #1e1e2eee; 
+    background-color: #131313; 
 
     border: 2px;
-    border-radius: 5%;
-    border-color: #89b4fa;
+    border-radius: 50%;
+    border-color: #a6e3a1;
 
     padding: 20px;
 }
 
 /* Sin input */
 inputbar {
-     children: [ prompt, entry ];
+    enabled: false;
 }
 
 /* Lista */
 listview {
-    columns: 1;
-    lines: 6;
+    columns: 5;
+    lines: 1;
 
     spacing: 20px;
     scrollbar: false;
@@ -42,7 +48,7 @@ element {
 
 /* Opción seleccionada */
 element selected {
-    background-color: #89b4fa30;
+    background-color: #ffffff36;
 }
 
 /* Texto */
@@ -56,3 +62,4 @@ element-text {
     border-radius: 50%;
 }
 
+/* Autor: Fravelz */

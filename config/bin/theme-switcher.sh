@@ -5,7 +5,7 @@
 THEMES_DIR="$HOME/.config/themes" # Directorio de temas
 
 # Mostrar lista de temas disponibles con wofi
-THEME=$(ls $THEMES_DIR | rofi -dmenu -p "> " -theme ~/.config/bin/themeswitcher.rasi)
+THEME=$(ls $THEMES_DIR | rofi -dmenu -p "> " -theme ~/.config/bin/styles/themeswitcher.rasi)
 
 # Si el usuario cancela
 [ -z "$THEME" ] && exit 0
@@ -22,8 +22,10 @@ cp $T_PATH/style-hypr.conf $HOME/.config/hypr/colors.conf
 ##HYPR_THEME="$HOME/.config/hypr/hyprland.conf"
 
 # Aplicar colores a wofi
-#WOFI_STYLE="$HOME/.config/wofi/style.css"
-#cp "$T_PATH/style-wofi.css" "$WOFI_STYLE"
+cp $T_PATH/styles-bin/powermenu.rasi     $HOME/.config/bin/styles/powermenu.rasi
+cp $T_PATH/styles-bin/selector-app.rasi  $HOME/.config/bin/styles/selector-app.rasi
+cp $T_PATH/styles-bin/themeswitcher.rasi $HOME/.config/bin/styles/themeswitcher.rasi
+
 
 # Aplicar colores y estilo a waybar
 #cp $T_PATH/.css $HOME/.config/waybar/style.css
