@@ -31,6 +31,9 @@ cp $T_PATH/style-waybar.css $HOME/.config/waybar/style.css
 cp $T_PATH/colors.css $HOME/.config/waybar/colors.css
 cp $T_PATH/config.jsonc $HOME/.config/waybar/config.jsonc
 
+# Aplicar colores y estilo a Terminal Kitty
+cp $T_PATH/kitty.jsonc $HOME/.config/kitty/kitty.jsonc
+
 # Cambiar wallpaper (editar hyprpaper.conf y recargar)
 WALL="$T_PATH/wallpaper.jpg"
 

@@ -2,6 +2,8 @@
 
 Repositorio n.° 1 de mi configuración de Arch Linux.
 
+**Nota:** Repositorio en Construcción incompleta no es totalmente funcional por ahora...
+
 | Carpeta     | Contenido                                                                 | Enlace                         |
 | ----------- | ------------------------------------------------------------------------- | ------------------------------ |
 | `./config`  | Archivos de configuración que están en la carpeta `.config` del sistema.  | [Ver configuración](./config)  |
