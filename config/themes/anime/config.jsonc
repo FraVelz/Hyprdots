@@ -2,10 +2,12 @@
   "layer": "top",
   "position": "top",
   "height": 25,
+
   "margin-left": 5,
   "margin-right": 5,
   "margin-top": 5,
   "margin-bottom": 0,
+
   "spacing": 1,
   "reload_style_on_change": true,
 
@@ -64,8 +66,7 @@
     "modules": [
       "bluetooth",
       "battery",
-      "network",
-      "custom/power"
+      "network"
     ]
   },
 
@@ -139,17 +140,17 @@
   "temperature": {
     "thermal-zone": 2,
     "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-    "format-critical": "{temperatureC}°C {icon}",
+    "format-critical": "{temperatureC}°C {icon} ",
     "critical-threshold": 80,
     "interval": 2,
-    "format": " {temperatureC:>2}°C",
+    "format": " {temperatureC:>2}°C ",
     "format-icons": ["0", "", ""],
     "on-click": "hyprctl dispatcher togglespecialworkspace monitor"
   },
 
   "cpu": {
     "interval": 2,
-    "format": " {usage:>2}%",
+    "format": " {usage:>2}% ",
     "on-click": "hyprctl dispatcher togglespecialworkspace monitor"
   },
 
@@ -160,11 +161,12 @@
 
   "disk": {
     "interval": 15,
-    "format": "󰋊 {percentage_used:>2}%"
+    "format": "󰋊 {percentage_used:>2}% "
   },
+
   "backlight": {
     // "device": "acpi_video1",
-    "format": "{icon} {percent:>2}%",
+    "format": "{icon} {percent:>3}%",
     "format-icons": [ "", "", "", "", "", "", "", "", ""]
   },
 
@@ -184,27 +186,16 @@
     "on-click": "blueman-manager"
   },
 
-  // "network": {
-    // "interval": 3,
-    // "format-ethernet": "{ipaddr}/{cidr} ",
-    // "tooltip-format-wifi": " {ipaddr} ({signalStrength}%)",
-    // "tooltip-format": "{ifname} via {gwaddr} ",
-    // "format-linked": "{ifname} (No IP) ",
-    // "format-disconnected": "󰀦 Disconnected",
-    // "format-alt": "{ifname}: {ipaddr}/{cidr}",
-  // },
-
   "network": {
         "interval": 3,
-        "format-wifi": "  {bandwidthTotalBytes:>2}",
-        // "format-wifi": "{icon}", 
+        "format-wifi": " {bandwidthTotalBytes:>2}",
         "format-ethernet": "󰌗 {ipaddr}", 
         "format-linked": "󰌙 {ifname} (Sin IP)", 
         "format-disconnected": "󰖪", 
         "format-alt": "󰛳 {ifname}", 
         "tooltip-format-wifi": " {bandwidthDownBytes}  {bandwidthUpBytes}", 
         "tooltip-format-ethernet": "󰌗 {ifname} | IP: {ipaddr}/{cidr} | GW: {gwaddr}", 
-        "tooltip-format-disconnected": "󰖪 No internet connection", 
+        "tooltip-format-disconnected": "󰖪 Disconnected", 
         "tooltip-format-linked": "󰌙 {ifname}: Not ip",
         "max-length": 30, 
         "on-click": "~/.config/rofi/wifi/script.sh", 
@@ -216,9 +207,9 @@
     },
 
   "pulseaudio": {
-    "format": "{icon} {volume}%", //{format_source}",
-    "format-bluetooth": "{icon} {volume}% 󰂯", //{format_source}",
-    "format-bluetooth-muted": "󰖁 {icon} 󰂯", //{format_source}",
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}% 󰂯",
+    "format-bluetooth-muted": "󰖁 {icon} 󰂯",
     "format-muted": "󰖁 {volume}%",
     "format-source": " {volume}%",
     "format-source-muted": "",
@@ -239,9 +230,10 @@
   "wireplumber": {
     "format": "{icon} {volume:>2}% ",
     "format-muted": "󰖁 {volume:>2}% ",
-    "format-bluetooth": "{icon} {volume:>2}% 󰂯 ", //{format_source}",
-    "format-bluetooth-muted": "󰖁 {icon} 󰂯 ", //{format_source}",
-    "format-icons": ["", " ", " "]
+    "format-bluetooth": "{icon} {volume:>2}% 󰂯 ",
+    "format-bluetooth-muted": "󰖁 {icon} 󰂯 ",
+    "format-icons": ["", " ", " "],
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
   },
 
   "cava": {
@@ -291,14 +283,6 @@
     "format-icons": " ",
     "exec-on-event": "true",
     "tooltip-format": "Arch Linux"
-  },
-
-  "custom/power": {
-    "format": "{icon}",
-    "format-icons": " ",
-    "exec-on-event": "true",
-    "on-click": "wlogout",
-    "tooltip-format": "Power Menu"
   },
 
   "custom/pacman": {
@@ -418,12 +402,6 @@
   "custom/previous": {
     "format": "󰙣",
     "on-click": "playerctl --player=spotify previous && playerctl --player=youtube-music previous",
-    "tooltip": false
-  },
-
-  "custom/catppuccin-theme": {
-    "format": "󰏘",
-    "on-click": "~/.config/waybar/scripts/catppuccin.sh",
     "tooltip": false
   },
 

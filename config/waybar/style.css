@@ -16,9 +16,7 @@
     border: 2px;
 }
 
-#waybar .module:hover {
-    color: @mauve;
-}
+#waybar .module:hover { color: @mauve; }
 
 #window#waybar {
     color: @text;
@@ -88,53 +86,25 @@ button:hover {
     margin: 5px 0px;
 }
 
-#tags button.occupied {
-    color: @mantle;
-}
+#tags button.occupied { color: @mantle; }
 
-#tags button.focused {
-    color: @sky;
-}
+#tags button.focused { color: @sky; }
 
-#tags button.urgent {
-    color: @red;
-}
+#tags button.urgent { color: @red; }
 
-#clock {
-    font-size: 18px;
-}
-
-#custom-notification {
-    color: @text;
-}
-
-#group-4 {
-   margin: 2px;
-}
+#custom-notification { color: @text; }
 
 #group-10, #group-9, #group-8, #group-7, #group-6, 
 #group-5,  #group-4, #group-3, #group-2, #group-1 {
     padding: 0px 10px;
-    background: @mantle; /* linear-gradient(145deg, #1e1e2e 0%, #181825 100%); */
-    border: 2px;
+    margin: 0px 5px;
+    background: @mantle;
+    border: 2px solid @mauve;
     border-radius: 9999px;
 }
 
-#custom-discord, #custom-reddit, #custom-instagram, 
-#catppuccin-theme, #custom-whatsapp, #custom-firefox, 
-#custom-spotify, #custom-github {
-  border: 2px;
-  font-size: 18px;
-}
-
-#bluetooth,
-#custom-pkg-aur {
-  font-size: 18px;
-  
-}
-
 #custom-next, #custom-pause, #custom-previous {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 #network.disconnected,
@@ -145,12 +115,10 @@ button:hover {
 
 #battery.charging,
 #battery.plugged {
-    color: @green; /* linear-gradient(145deg, @green 0%, #1e1e2e 100%); */
+    color: @green;
 }
 
-label:focus {
-    background-color: @base;
-}
+label:focus { background-color: @base; }
 
 #battery.critical:not(.charging) {
     color: @red;
@@ -160,3 +128,10 @@ label:focus {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+/** Modificador: Fravelz ***************************/
+
+/** ********************************************** **/
+/** Creditos (Autor Original, Estilo Cappuccine):  **/
+/**          ZepharDev Nvim (REPO: Hyprcraft)      **/
+/** ********************************************** **/
