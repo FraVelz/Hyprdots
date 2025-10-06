@@ -15,7 +15,7 @@
   "modules-left": [  
     "group/group-1",
     "group/group-9",
-    "group/group-6",
+    "group/group-6"
   ],
   "modules-center": [
     "group/group-5"
@@ -54,22 +54,25 @@
       "battery",
       "network",
       "custom/power",
-      "custom/wallpaper",
-    ],
+      "custom/wallpaper"
+    ]
   },
+
   "group/group-5": {
     "orientation": "horizontal",
     "modules": [
       "clock"
-    ],
+    ]
   },
+
   "group/group-6": {
     "orientation": "horizontal",
     "modules": [
       "custom/pacman",
-      "custom/pkg-aur",
-    ],
+      "custom/pkg-aur"
+    ]
   },
+
   "group/group-8": {
     "orientation": "horizontal",
     "modules": [
@@ -92,7 +95,7 @@
       "mpris",
       "custom/previous",
       "custom/pause",
-      "custom/next",
+      "custom/next"
     ],
   },
   "group/group-10": {

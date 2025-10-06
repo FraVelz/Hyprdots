@@ -29,6 +29,7 @@ cp $T_PATH/style-hypr.conf $HOME/.config/hypr/colors.conf
 #cp $T_PATH/.css $HOME/.config/waybar/style.css
 cp $T_PATH/style-waybar.css $HOME/.config/waybar/style.css
 cp $T_PATH/colors.css $HOME/.config/waybar/colors.css
+cp $T_PATH/config.jsonc $HOME/.config/waybar/config.jsonc
 
 # Cambiar wallpaper (editar hyprpaper.conf y recargar)
 WALL="$T_PATH/wallpaper.jpg"
