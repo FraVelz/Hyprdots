@@ -113,6 +113,7 @@ Archivos:
 - `style-formatter.css`: Archivo para configurar colores en VS Code y facilitar la selección de colores en archivos de configuración (kitty.conf, etc.).
 
 Ejemplo de uso del archivo `style-formatter.css` en VS Code:
+
 ![Opción de colores en VS Code](./media/style-formatter.png)
 
 ## Información
