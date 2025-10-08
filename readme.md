@@ -8,6 +8,8 @@ Ver demostración de estilos completos en mi canal de YouTube:
 
 O revisa directamente la configuración de interés.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xmqRhAnfWSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 ## Temario
