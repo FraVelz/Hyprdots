@@ -174,11 +174,11 @@ Perfecto 👍 Aquí tienes toda esa información organizada en una tabla Markdow
 
 | N.  | Tema         | Imagen 1                            | Imagen 2                            | Imagen 3                            |
 | --- | ------------ | ----------------------------------- | ----------------------------------- | ----------------------------------- |
-| 1   | **Anime**    | ![Imagen 1](./media/anime-1.png)    | ![Imagen 2](./media/anime-3.png)    | ![Imagen 3](./media/anime-2.png)    |
+| 1   | **Anime**    | ![Imagen 1](./media/anime-1.png)    | ![Imagen 2](./media/anime-2.png)    | ![Imagen 3](./media/anime-3.png)    |
 | 2   | **Batman**   | ![Imagen 1](./media/batman-1.png)   | ![Imagen 2](./media/batman-2.png)   | ![Imagen 3](./media/batman-3.png)   |
 | 3   | **Hacker**   | ![Imagen 1](./media/hacker-1.png)   | ![Imagen 2](./media/hacker-2.png)   | ![Imagen 3](./media/hacker-3.png)   |
 | 4   | **ModeDark** | ![Imagen 1](./media/modeDark-1.png) | ![Imagen 2](./media/modeDark-2.png) | ![Imagen 3](./media/modeDark-3.png) |
-| 5   | **Superman** | ![Imagen 1](./media/anime-1.png)    | ![Imagen 2](./media/anime-3.png)    | ![Imagen 3](./media/anime-2.png)    |
+| 5   | **Superman** | ![Imagen 1](./media/superman-1.png) | ![Imagen 2](./media/superman-2.png) | ![Imagen 3](./media/superman-3.png) |
 
 ### `waybar`
 
