@@ -21,7 +21,7 @@ O revisa directamente la configuración de interés.
     - [`kitty`](#kitty)
     - [`nvim`](#nvim)
     - [`themes`](#themes)
-    - [🎨 Temas disponibles](#-temas-disponibles)
+    - [Temas disponibles](#temas-disponibles)
     - [`waybar`](#waybar)
   - [Carpeta home](#carpeta-home)
   - [Carpeta `media`](#carpeta-media)
@@ -162,7 +162,7 @@ Perfecto 👍 Aquí tienes toda esa información organizada en una tabla Markdow
 
 ---
 
-### 🎨 Temas disponibles
+### Temas disponibles
 
 | N.  | Tema         | Descripción                                                                                                                                  | Imagen 1                            | Imagen 2                            | Imagen 3                            |
 | --- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
