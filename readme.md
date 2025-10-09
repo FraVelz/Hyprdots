@@ -164,13 +164,21 @@ Perfecto 👍 Aquí tienes toda esa información organizada en una tabla Markdow
 
 ### Temas disponibles
 
-| N.  | Tema         | Descripción                                                                                                                                  | Imagen 1                            | Imagen 2                            | Imagen 3                            |
-| --- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
-| 1   | **Anime**    | Es el tema principal, vistoso y agradable visualmente. Ideal para un entorno colorido.                                                       | ![Imagen 1](./media/anime-1.png)    | ![Imagen 2](./media/anime-3.png)    | ![Imagen 3](./media/anime-2.png)    |
-| 2   | **Batman**   | Tema con colores apagados y wallpaper liviano. Optimizado para ahorrar batería y mantener un diseño sobrio. **Color principal:** gris.       | ![Imagen 1](./media/batman-1.png)   | ![Imagen 2](./media/batman-2.png)   | ![Imagen 3](./media/batman-3.png)   |
-| 3   | **Hacker**   | Similar al tema Batman, pero con tonalidades y fondo distintos. Ideal para amantes del estilo “terminal hacker”. **Color principal:** verde. | ![Imagen 1](./media/hacker-1.png)   | ![Imagen 2](./media/hacker-2.png)   | ![Imagen 3](./media/hacker-3.png)   |
-| 4   | **ModeDark** | Diseño con una esencia más misteriosa y perfecta para Halloween. Mantiene la estética minimalista sin exagerar.                              | ![Imagen 1](./media/modeDark-1.png) | ![Imagen 2](./media/modeDark-2.png) | ![Imagen 3](./media/modeDark-3.png) |
-| 5   | **Superman** | Tema con colores variados pero diseño similar a *Batman* y *Hacker*. **Color principal:** amarillo.                                          | ![Imagen 1](./media/anime-1.png)    | ![Imagen 2](./media/anime-3.png)    | ![Imagen 3](./media/anime-2.png)    |
+| N.  | Tema         | Descripción                                                                                                                                  |
+| --- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Anime**    | Es el tema principal, vistoso y agradable visualmente. Ideal para un entorno colorido.                                                       |
+| 2   | **Batman**   | Tema con colores apagados y wallpaper liviano. Optimizado para ahorrar batería y mantener un diseño sobrio. **Color principal:** gris.       |
+| 3   | **Hacker**   | Similar al tema Batman, pero con tonalidades y fondo distintos. Ideal para amantes del estilo “terminal hacker”. **Color principal:** verde. |
+| 4   | **ModeDark** | Diseño con una esencia más misteriosa y perfecta para Halloween. Mantiene la estética minimalista sin exagerar.                              |
+| 5   | **Superman** | Tema con colores variados pero diseño similar a *Batman* y *Hacker*. **Color principal:** amarillo.                                          |
+
+| N.  | Tema         | Imagen 1                            | Imagen 2                            | Imagen 3                            |
+| --- | ------------ | ----------------------------------- | ----------------------------------- | ----------------------------------- |
+| 1   | **Anime**    | ![Imagen 1](./media/anime-1.png)    | ![Imagen 2](./media/anime-3.png)    | ![Imagen 3](./media/anime-2.png)    |
+| 2   | **Batman**   | ![Imagen 1](./media/batman-1.png)   | ![Imagen 2](./media/batman-2.png)   | ![Imagen 3](./media/batman-3.png)   |
+| 3   | **Hacker**   | ![Imagen 1](./media/hacker-1.png)   | ![Imagen 2](./media/hacker-2.png)   | ![Imagen 3](./media/hacker-3.png)   |
+| 4   | **ModeDark** | ![Imagen 1](./media/modeDark-1.png) | ![Imagen 2](./media/modeDark-2.png) | ![Imagen 3](./media/modeDark-3.png) |
+| 5   | **Superman** | ![Imagen 1](./media/anime-1.png)    | ![Imagen 2](./media/anime-3.png)    | ![Imagen 3](./media/anime-2.png)    |
 
 ### `waybar`
 
