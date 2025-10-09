@@ -21,7 +21,6 @@ O revisa directamente la configuración de interés.
     - [`kitty`](#kitty)
     - [`nvim`](#nvim)
     - [`themes`](#themes)
-    - [Temas disponibles](#temas-disponibles)
     - [`waybar`](#waybar)
   - [Carpeta home](#carpeta-home)
   - [Carpeta `media`](#carpeta-media)
@@ -158,11 +157,7 @@ Están algo desordenados, pero en el futuro quizá, emplearé una estructura má
 
   - `wallpaper.jpg` este archivo es el fondo de pantalla que lee el script para todos los temas.
 
-Perfecto 👍 Aquí tienes toda esa información organizada en una tabla Markdown, ideal para usar en documentación (por ejemplo, en GitHub o un README):
-
----
-
-### Temas disponibles
+**Temas disponibles:**
 
 | N.  | Tema         | Descripción                                                                                                                                  |
 | --- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
