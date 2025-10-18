@@ -1272,6 +1272,253 @@ EMOJI=$(cat <<EOF
 📒 Libreta  
 📔 Diario  
 📚 Pila de libros  
+🇦🇫 Afganistán  
+🇦🇱 Albania  
+🇩🇿 Argelia  
+🇦🇸 Samoa Americana  
+🇦🇩 Andorra  
+🇦🇴 Angola  
+🇦🇮 Anguila  
+🇦🇶 Antártida  
+🇦🇬 Antigua y Barbuda  
+🇦🇷 Argentina  
+🇦🇲 Armenia  
+🇦🇼 Aruba  
+🇦🇺 Australia  
+🇦🇹 Austria  
+🇦🇿 Azerbaiyán  
+🇧🇸 Bahamas  
+🇧🇭 Baréin  
+🇧🇩 Bangladés  
+🇧🇧 Barbados  
+🇧🇾 Bielorrusia  
+🇧🇪 Bélgica  
+🇧🇿 Belice  
+🇧🇯 Benín  
+🇧🇲 Bermudas  
+🇧🇹 Bután  
+🇧🇴 Bolivia  
+🇧🇦 Bosnia y Herzegovina  
+🇧🇼 Botsuana  
+🇧🇷 Brasil  
+🇮🇴 Territorio Británico del Océano Índico  
+🇻🇬 Islas Vírgenes Británicas  
+🇧🇳 Brunéi  
+🇧🇬 Bulgaria  
+🇧🇫 Burkina Faso  
+🇧🇮 Burundi  
+🇰🇭 Camboya  
+🇨🇲 Camerún  
+🇨🇦 Canadá  
+🇨🇻 Cabo Verde  
+🇧🇶 Bonaire, San Eustaquio y Saba  
+🇰🇾 Islas Caimán  
+🇨🇫 República Centroafricana  
+🇹🇩 Chad  
+🇨🇱 Chile  
+🇨🇳 China  
+🇨🇽 Isla Christmas  
+🇨🇨 Islas Cocos  
+🇨🇴 Colombia  
+🇰🇲 Comoras  
+🇨🇬 Congo  
+🇨🇩 República Democrática del Congo  
+🇨🇰 Islas Cook  
+🇨🇷 Costa Rica  
+🇨🇮 Costa de Marfil  
+🇭🇷 Croacia  
+🇨🇺 Cuba  
+🇨🇼 Curazao  
+🇨🇾 Chipre  
+🇨🇿 República Checa  
+🇩🇰 Dinamarca  
+🇩🇯 Yibuti  
+🇩🇲 Dominica  
+🇩🇴 República Dominicana  
+🇪🇨 Ecuador  
+🇪🇬 Egipto  
+🇸🇻 El Salvador  
+🇬🇶 Guinea Ecuatorial  
+🇪🇷 Eritrea  
+🇪🇪 Estonia  
+🇪🇹 Etiopía  
+🇫🇰 Islas Malvinas  
+🇫🇴 Islas Feroe  
+🇫🇯 Fiyi  
+🇫🇮 Finlandia  
+🇫🇷 Francia  
+🇬🇫 Guayana Francesa  
+🇵🇫 Polinesia Francesa  
+🇹🇫 Territorios Australes Franceses  
+🇬🇦 Gabón  
+🇬🇲 Gambia  
+🇬🇪 Georgia  
+🇩🇪 Alemania  
+🇬🇭 Ghana  
+🇬🇮 Gibraltar  
+🇬🇷 Grecia  
+🇬🇱 Groenlandia  
+🇬🇩 Granada  
+🇬🇵 Guadalupe  
+🇬🇺 Guam  
+🇬🇹 Guatemala  
+🇬🇬 Guernsey  
+🇬🇳 Guinea  
+🇬🇼 Guinea-Bisáu  
+🇬🇾 Guyana  
+🇭🇹 Haití  
+🇭🇳 Honduras  
+🇭🇰 Hong Kong  
+🇭🇺 Hungría  
+🇮🇸 Islandia  
+🇮🇳 India  
+🇮🇩 Indonesia  
+🇮🇷 Irán  
+🇮🇶 Irak  
+🇮🇪 Irlanda  
+🇮🇲 Isla de Man  
+🇮🇱 Israel  
+🇮🇹 Italia  
+🇯🇲 Jamaica  
+🇯🇵 Japón  
+🎌 Banderas cruzadas (símbolo)  
+🇯🇪 Jersey  
+🇯🇴 Jordania  
+🇰🇿 Kazajistán  
+🇰🇪 Kenia  
+🇰🇮 Kiribati  
+🇽🇰 Kosovo  
+🇰🇼 Kuwait  
+🇰🇬 Kirguistán  
+🇱🇦 Laos  
+🇱🇻 Letonia  
+🇱🇧 Líbano  
+🇱🇸 Lesoto  
+🇱🇷 Liberia  
+🇱🇾 Libia  
+🇱🇮 Liechtenstein  
+🇱🇹 Lituania  
+🇱🇺 Luxemburgo  
+🇲🇴 Macao  
+🇲🇬 Madagascar  
+🇲🇼 Malaui  
+🇲🇾 Malasia  
+🇲🇻 Maldivas  
+🇲🇱 Malí  
+🇲🇹 Malta  
+🇲🇭 Islas Marshall  
+🇲🇶 Martinica  
+🇲🇷 Mauritania  
+🇲🇺 Mauricio  
+🇾🇹 Mayotte  
+🇲🇽 México  
+🇫🇲 Micronesia  
+🇲🇩 Moldavia  
+🇲🇨 Mónaco  
+🇲🇳 Mongolia  
+🇲🇪 Montenegro  
+🇲🇸 Montserrat  
+🇲🇦 Marruecos  
+🇲🇿 Mozambique  
+🇲🇲 Myanmar (Birmania)  
+🇳🇦 Namibia  
+🇳🇷 Nauru  
+🇳🇵 Nepal  
+🇳🇱 Países Bajos  
+🇳🇨 Nueva Caledonia  
+🇳🇿 Nueva Zelanda  
+🇳🇮 Nicaragua  
+🇳🇪 Níger  
+🇳🇬 Nigeria  
+🇳🇺 Niue  
+🇳🇫 Isla Norfolk  
+🇲🇰 Macedonia del Norte  
+🇲🇵 Islas Marianas del Norte  
+🇰🇵 Corea del Norte  
+🇳🇴 Noruega  
+🇴🇲 Omán  
+🇵🇰 Pakistán  
+🇵🇼 Palaos  
+🇵🇸 Palestina  
+🇵🇦 Panamá  
+🇵🇬 Papúa Nueva Guinea  
+🇵🇾 Paraguay  
+🇵🇪 Perú  
+🇵🇭 Filipinas  
+🇵🇳 Islas Pitcairn  
+🇵🇱 Polonia  
+🇵🇹 Portugal  
+🇵🇷 Puerto Rico  
+🇶🇦 Catar  
+🇷🇪 Reunión  
+🇷🇴 Rumania  
+🇷🇺 Rusia  
+🇷🇼 Ruanda  
+🇼🇸 Samoa  
+🇸🇲 San Marino  
+🇸🇹 Santo Tomé y Príncipe  
+🇸🇦 Arabia Saudita  
+🇸🇳 Senegal  
+🇷🇸 Serbia  
+🇸🇨 Seychelles  
+🇸🇱 Sierra Leona  
+🇸🇬 Singapur  
+🇸🇽 Sint Maarten  
+🇸🇰 Eslovaquia  
+🇸🇮 Eslovenia  
+🇸🇧 Islas Salomón  
+🇸🇴 Somalia  
+🇿🇦 Sudáfrica  
+🇬🇸 Islas Georgia del Sur y Sandwich del Sur  
+🇰🇷 Corea del Sur  
+🇸🇸 Sudán del Sur  
+🇪🇸 España  
+🇱🇰 Sri Lanka  
+🇸🇩 Sudán  
+🇸🇷 Surinam  
+🇸🇯 Svalbard y Jan Mayen  
+🇸🇿 Esuatini  
+🇸🇪 Suecia  
+🇨🇭 Suiza  
+🇸🇾 Siria  
+🇹🇼 Taiwán  
+🇹🇯 Tayikistán  
+🇹🇿 Tanzania  
+🇹🇭 Tailandia  
+🇹🇱 Timor Oriental  
+🇹🇬 Togo  
+🇹🇰 Tokelau  
+🇹🇴 Tonga  
+🇹🇹 Trinidad y Tobago  
+🇹🇳 Túnez  
+🇹🇷 Turquía  
+🇹🇲 Turkmenistán  
+🇹🇨 Islas Turcas y Caicos  
+🇹🇻 Tuvalu  
+🇺🇬 Uganda  
+🇺🇦 Ucrania  
+🇦🇪 Emiratos Árabes Unidos  
+🇬🇧 Reino Unido  
+🇺🇸 Estados Unidos  
+🇻🇮 Islas Vírgenes de EE. UU.  
+🇺🇾 Uruguay  
+🇺🇿 Uzbekistán  
+🇻🇺 Vanuatu  
+🇻🇦 Ciudad del Vaticano  
+🇻🇪 Venezuela  
+🇻🇳 Vietnam  
+🇼🇫 Wallis y Futuna  
+🇪🇭 Sáhara Occidental  
+🇾🇪 Yemen  
+🇿🇲 Zambia  
+🇿🇼 Zimbabue  
+🇺🇳 Naciones Unidas  
+🏴 Bandera negra  
+🏳️ Bandera blanca  
+🏁 Bandera de meta  
+🚩 Bandera triangular  
+🏳️‍🌈 Bandera arcoíris
+🏳️‍⚧️ Bandera transgénero
 EOF
 )
 
