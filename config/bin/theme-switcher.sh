@@ -26,7 +26,6 @@ cp $T_PATH/styles-bin/powermenu.rasi     $HOME/.config/bin/styles/powermenu.rasi
 cp $T_PATH/styles-bin/selector-app.rasi  $HOME/.config/bin/styles/selector-app.rasi
 cp $T_PATH/styles-bin/themeswitcher.rasi $HOME/.config/bin/styles/themeswitcher.rasi
 
-
 # Aplicar colores y estilo a waybar
 #cp $T_PATH/.css $HOME/.config/waybar/style.css
 cp $T_PATH/style-waybar.css $HOME/.config/waybar/style.css
@@ -34,6 +33,7 @@ cp $T_PATH/colors.css $HOME/.config/waybar/colors.css
 cp $T_PATH/config.jsonc $HOME/.config/waybar/config.jsonc
 
 # Aplicar colores y estilo a Terminal Kitty
+cp $T_PATH/colors.ini $HOME/.config/kitty/colors.ini
 cp $T_PATH/kitty.conf $HOME/.config/kitty/kitty.conf
 
 # Cambiar wallpaper (editar hyprpaper.conf y recargar)

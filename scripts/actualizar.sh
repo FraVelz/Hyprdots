@@ -23,6 +23,9 @@ echo -e " [+] Bin Listo!!! \n"
 cp -v $ruta/config/waybar/config.jsonc $HOME/.config/waybar/config.jsonc 
 cp -v $ruta/config/waybar/style.css $HOME/.config/waybar/style.css 
 cp -v $ruta/config/waybar/colors.css $HOME/.config/waybar/colors.css 
+cp -v $ruta/config/waybar/ip.sh $HOME/.config/waybar/ip.sh
+cp -v $ruta/config/waybar/target.sh $HOME/.config/waybar/target.sh
+cp -v $ruta/config/waybar/vpn-status.sh $HOME/.config/waybar/vpn-status.sh
 echo -e " [+] Waybar Listo!!! \n"
 
 # nvim

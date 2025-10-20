@@ -30,22 +30,6 @@ function parse_git_branch {
 	fi
 }
 
-# Agregar target (ip victima) a el waybar (por medio del archivo)
-
-function settarget(){
-    ip_address=$1
-    machine_name=$2
-    echo "$ip_address $machine_name" > /home/fravelz/.config/bin/target
-}
-
-# Limpiar target (ip victima) a el waybar (por medio del archivo)
-
-function cleartarget(){
-    echo '' > /home/fravelz/.config/bin/target
-}
-
-# Otros
-
 PROMPT='%F{cyan}󰣇 %f %F{magenta}%n%f $(dir_icon) %F{red}%~%f%${vcs_info_msg_0_} %F{yellow}$(parse_git_branch)%f %(?.%B%F{green}.%F{red})%f%b '
 
 export PATH="$HOME/.config/bin:$PATH:/opt/nvim/nvim-linux-x86_64/bin"
@@ -54,5 +38,3 @@ alias cat='bat --style=plain'
 alias ls='lsd'
 
 fastfetch
-
-# Autor: Fravelz
