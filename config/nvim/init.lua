@@ -35,3 +35,28 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-----------------------------------------------------------
+-- 🧩 CONFIGURACIÓN GENERAL DE NEOVIM
+-----------------------------------------------------------
+
+-- Numeración de líneas
+vim.opt.number = true
+vim.opt.relativenumber = true
+
+-----------------------------------------------------------
+-- ⌨️ ATAJOS DE TECLADO (KEYMAPS)
+-----------------------------------------------------------
+
+-- Atajos de movimiento entre ventanas (pane navigation)
+vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = "Mover al panel izquierdo" })
+vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = "Mover al panel derecho" })
+
+-----------------------------------------------------------
+-- 🧱 Salir del modo actual con 'zx'
+-----------------------------------------------------------
+
+vim.keymap.set('i', 'zx', '<Esc>', { noremap = true, desc = "Salir del modo inserción" })
+vim.keymap.set('v', 'zx', '<Esc>', { noremap = true, desc = "Salir del modo visual" })
+vim.keymap.set('c', 'zx', '<C-c>', { noremap = true, desc = "Cancelar comando" })
+vim.keymap.set('t', 'zx', '<C-\\><C-n>', { noremap = true, desc = "Salir del modo terminal" })
