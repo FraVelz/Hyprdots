@@ -50,7 +50,7 @@ PROMPT='%F{cyan}󰣇 %f %F{magenta}%n%f $(dir_icon) %F{red}%~%f%${vcs_info_msg_0
 
 export PATH="$HOME/.config/bin:$PATH:/opt/nvim/nvim-linux-x86_64/bin"
 
-alias cat='bat --style=plain'
+alias cat='bat --style=plain,numbers'
 alias ls='lsd'
 
 fastfetch
