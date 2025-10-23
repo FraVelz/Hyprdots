@@ -1,16 +1,38 @@
-Perfecto 🔥
-He revisado todo tu archivo de configuración de **Hyprland**, y aquí tienes **todos los atajos de teclado (keybindings)** extraídos y ordenados por categorías, con una breve descripción de lo que hace cada uno.
+# Atajos de Teclado
 
 ---
 
-## 🎮 **Modificadores principales**
+## Temario
 
-* `$mainMod = SUPER` → tecla **Windows / Super**
-* `$secondMod = SUPER_SHIFT` → **Windows + Shift**
+- [Atajos de Teclado](#atajos-de-teclado)
+  - [Temario](#temario)
+  - [🎮 Modificadores principales](#-modificadores-principales)
+  - [🧩 Gestión de ventanas](#-gestión-de-ventanas)
+  - [🧠 Menús personalizados](#-menús-personalizados)
+  - [🧭 Movimiento entre ventanas](#-movimiento-entre-ventanas)
+  - [🧱 Espacios de trabajo (Workspaces)](#-espacios-de-trabajo-workspaces)
+  - [🖱️ Gestos del ratón](#️-gestos-del-ratón)
+  - [🔊 Multimedia](#-multimedia)
+  - [💡 Brillo](#-brillo)
+  - [💬 Resumen total](#-resumen-total)
+  - [⚙️ Comandos básicos dentro de Kitty](#️-comandos-básicos-dentro-de-kitty)
+    - [⚡ Atajos básicos (idénticos a Bash)](#-atajos-básicos-idénticos-a-bash)
+    - [⚙️ Atajos especiales de Zsh (ZLE)](#️-atajos-especiales-de-zsh-zle)
+    - [🧠 Si usas Oh My Zsh o Powerlevel10k](#-si-usas-oh-my-zsh-o-powerlevel10k)
+    - [🧩 Ver o personalizar los atajos](#-ver-o-personalizar-los-atajos)
+
+[Regresar a la guía principal](./readme.md#hyprdots)
 
 ---
 
-## 🧩 **Gestión de ventanas**
+## 🎮 Modificadores principales
+
+- `$mainMod = SUPER` → tecla **Windows / Super**
+- `$secondMod = SUPER_SHIFT` → **Windows + Shift**
+
+---
+
+## 🧩 Gestión de ventanas
 
 | Atajo              | Acción                                                          |
 | ------------------ | --------------------------------------------------------------- |
@@ -25,19 +47,20 @@ He revisado todo tu archivo de configuración de **Hyprland**, y aquí tienes **
 
 ---
 
-## 🧠 **Menús personalizados**
+## 🧠 Menús personalizados
 
 | Atajo                      | Acción                                                       |
 | -------------------------- | ------------------------------------------------------------ |
 | **Super + D**              | Abrir lanzador de aplicaciones (`rofi -show drun`)           |
 | **Super + Q**              | Abrir menú de apagado (`~/.config/bin/power-menu.sh`)        |
 | **Super + A**              | Abrir cambiador de temas (`~/.config/bin/theme-switcher.sh`) |
+| **Super + W**              | Abrir cambiador de fondos(`~/.config/bin/wallpaper-switcher.sh`) |
 | **Super + E**              | Menú de iconos (`~/.config/bin/menu-iconos.sh`)              |
 | **Super + Shift + Return** | Activar “modo hacker” (`~/.config/bin/mode-hacker.sh`)       |
 
 ---
 
-## 🧭 **Movimiento entre ventanas**
+## 🧭 Movimiento entre ventanas
 
 | Atajo                     | Acción                                                 |
 | ------------------------- | ------------------------------------------------------ |
@@ -46,7 +69,7 @@ He revisado todo tu archivo de configuración de **Hyprland**, y aquí tienes **
 
 ---
 
-## 🧱 **Espacios de trabajo (Workspaces)**
+## 🧱 Espacios de trabajo (Workspaces)
 
 | Atajo                     | Acción                                             |
 | ------------------------- | -------------------------------------------------- |
@@ -59,7 +82,7 @@ He revisado todo tu archivo de configuración de **Hyprland**, y aquí tienes **
 
 ---
 
-## 🖱️ **Gestos del ratón**
+## 🖱️ Gestos del ratón
 
 | Atajo                                  | Acción                |
 | -------------------------------------- | --------------------- |
@@ -68,7 +91,7 @@ He revisado todo tu archivo de configuración de **Hyprland**, y aquí tienes **
 
 ---
 
-## 🔊 **Multimedia**
+## 🔊 Multimedia
 
 | Atajo                     | Acción                        |
 | ------------------------- | ----------------------------- |
@@ -82,7 +105,7 @@ He revisado todo tu archivo de configuración de **Hyprland**, y aquí tienes **
 
 ---
 
-## 💡 **Brillo**
+## 💡 Brillo
 
 | Atajo                     | Acción             |
 | ------------------------- | ------------------ |
@@ -91,36 +114,13 @@ He revisado todo tu archivo de configuración de **Hyprland**, y aquí tienes **
 
 *(Tienes dos versiones: una normal y otra con `bindel` que usa `brightnessctl -e4 -n2` para mejor compatibilidad.)*
 
-## 💬 **Resumen total**
+## 💬 Resumen total
 
 Existen **41 atajos activos**.
-
-
-
-
-
-
-
-
-
-
-
-
-Perfecto 😎 estás hablando del **emulador de terminal Kitty**, ¿cierto?
-(No del personaje 🐱).
-Vamos con una guía completa de **comandos útiles y atajos de teclado** de **Kitty**, tanto para usarlo como para configurarlo.
-
----
-
-## 🧠 ¿Qué es Kitty?
-
-**Kitty** es un **emulador de terminal GPU-acelerado**, rápido, personalizable y compatible con funciones modernas (como pestañas, ventanas divididas y scripts).
 
 ---
 
 ## ⚙️ Comandos básicos dentro de Kitty
-
-> Ojo: *“Comandos”* aquí se refiere a **atajos o funciones propias del terminal**, no a comandos de Linux (como `ls`, `cd`, etc.).
 
 | Acción                            | Atajo por defecto              | Descripción                                   |
 | :-------------------------------- | :----------------------------- | :-------------------------------------------- |
@@ -138,75 +138,74 @@ Vamos con una guía completa de **comandos útiles y atajos de teclado** de **Ki
 
 ---
 
-## 🧩 Comandos útiles en el archivo `kitty.conf`
+Sí ✅ — **Zsh tiene sus propios atajos de teclado**, y además **hereda muchos de Bash**, porque ambos usan la misma biblioteca de edición de línea: **Readline** (aunque Zsh puede usar su propio sistema, llamado **ZLE – Zsh Line Editor**).
 
-(Generalmente en `~/.config/kitty/kitty.conf`)
+En otras palabras:
 
-```bash
-# Cambiar fuente
-font_family FiraCode Nerd Font
-font_size 12.0
-
-# Tema (colores)
-include themes/Dracula.conf
-
-# Transparencia
-background_opacity 0.9
-
-# Dividir pantalla
-map ctrl+shift+enter launch --location=split
-
-# Scroll suave
-scrollback_lines 10000
-```
-
-Puedes crear o editar este archivo así:
-
-```bash
-nano ~/.config/kitty/kitty.conf
-```
-
-y luego recargar con:
-
-```bash
-kitty +kitten themes
-```
-
-o reiniciar Kitty.
+- muchos atajos de Bash funcionan igual en Zsh,
+- pero **Zsh añade algunos más potentes y personalizables**.
 
 ---
 
-## 🧰 Comandos “Kitten”
+### ⚡ Atajos básicos (idénticos a Bash)
 
-Kitty tiene pequeñas utilidades llamadas **kittens**, que extienden su funcionalidad.
-Se usan así:
-
-```bash
-kitty +kitten <nombre>
-```
-
-Ejemplos:
-
-| Comando                                | Función                                       |
-| :------------------------------------- | :-------------------------------------------- |
-| `kitty +kitten icat imagen.png`        | Muestra imágenes directamente en la terminal. |
-| `kitty +kitten diff archivo1 archivo2` | Comparador de archivos.                       |
-| `kitty +kitten ssh user@host`          | Conexión SSH mejorada.                        |
-| `kitty +kitten clipboard`              | Copia/pega entre terminales.                  |
-| `kitty +kitten hints`                  | Detecta URLs o archivos en pantalla.          |
+| Atajo      | Acción                                    |
+| ---------- | ----------------------------------------- |
+| `Ctrl + A` | Ir al inicio de la línea                  |
+| `Ctrl + E` | Ir al final de la línea                   |
+| `Ctrl + U` | Borrar todo antes del cursor              |
+| `Ctrl + K` | Borrar todo después del cursor            |
+| `Ctrl + W` | Borrar la palabra anterior                |
+| `Ctrl + Y` | Pegar lo borrado (yank)                   |
+| `Ctrl + L` | Limpiar la pantalla                       |
+| `Ctrl + R` | Buscar en el historial                    |
+| `Ctrl + C` | Cancelar el comando actual                |
+| `Ctrl + D` | Cerrar la sesión (si la línea está vacía) |
+| `Alt + B`  | Moverse una palabra atrás                 |
+| `Alt + F`  | Moverse una palabra adelante              |
 
 ---
 
-## 💡 Tip: abrir Kitty en modo “remote”
+### ⚙️ Atajos especiales de Zsh (ZLE)
 
-Si usas varias sesiones, puedes ejecutarlo así:
-
-```bash
-kitty --session nombre_sesion.conf
-```
-
-Y tener una ventana con múltiples paneles/pestañas preconfigurados.
+| Atajo                | Acción                                                                     |
+| -------------------- | -------------------------------------------------------------------------- |
+| `Ctrl + X, Ctrl + E` | Edita el comando actual en tu editor ($EDITOR, por defecto *nano* o *vim*) |
+| `Ctrl + X, Ctrl + U` | Deshacer cambios en la línea                                               |
+| `Alt + .`            | Inserta el último argumento del comando anterior                           |
+| `Esc + /`            | Autocompleta desde el historial                                            |
+| `Ctrl + X, *`        | Expande un patrón tipo `*.txt` directamente                                |
+| `Ctrl + X, Q`        | Cita (escapa) caracteres especiales automáticamente                        |
 
 ---
 
+### 🧠 Si usas Oh My Zsh o Powerlevel10k
 
+Puedes tener **atajos extra**, como:
+
+- `Alt + ↑` / `Alt + ↓` → navegar por comandos anteriores que empiezan igual.
+- `Ctrl + Space` → autocompletado avanzado (si lo activas).
+- `Ctrl + G` → cancelar búsqueda interactiva del historial.
+
+---
+
+### 🧩 Ver o personalizar los atajos
+
+Puedes listar todos los atajos activos con:
+
+```bash
+bindkey
+```
+
+Y reasignar uno, por ejemplo:
+
+```bash
+bindkey '^P' up-line-or-history
+bindkey '^N' down-line-or-history
+```
+
+---
+
+[Regresar a la guía principal](./readme.md#hyprdots)
+
+> **Autor:** Fravelz

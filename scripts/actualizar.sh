@@ -40,6 +40,10 @@ echo -e " [+] Kitty Listo!!! \n"
 cp -rv $ruta/config/fastfetch/* $HOME/.config/fastfetch/
 echo -e " [+] Kitty Listo!!! \n"
 
+# Fondos de pantalla (wallpapers)
+cp -v $ruta/config/wallpapers/* $HOME/.config/wallpapers/
+echo -e " [+] Wallpapers Listo!!! \n"
+
 # zsh
 cp -v $ruta/home/.zshrc $HOME/.zshrc 
 echo -e " [+] Zsh Listo!!! \n"

@@ -1,23 +1,23 @@
 #!/bin/bash
 
 EMOJI=$(cat <<EOF
-😀  feliz
-😂  risa
-❤️  corazon
-🔥  fuego
-✨  estrella
-😎  Fachero
-👍  ok
-😁 Caras y expresiones
-😀 Cara sonriendo
-😃 Cara feliz con ojos grandes
-😄 Cara muy sonriente
-😁 Cara sonriendo con dientes
+😀 feliz
+😂 risa
+❤️ corazon
+🔥 fuego
+✨ estrella
+😎 Fachero / Con gafas de sol / cool
+👍 ok / listo / bueno
+😁 feliz / Caras y expresiones
+😀 feliz / Cara sonriendo
+😃 feliz / Cara feliz con ojos grandes
+😄 feliz / Cara muy sonriente
+😁 feliz / Cara sonriendo con dientes
 😆 Cara riendo mucho
 🥹 Cara conmovida o a punto de llorar
 😅 Cara sonriendo con sudor
-😂 Riendo con lágrimas
-🤣 Carcajadas intensas
+😂 Riendo con lágrimas / risas
+🤣 Carcajadas intensas / risas
 🥲 Sonrisa triste o nostálgica
 ☺️ Cara sonriente y tranquila
 😊 Sonrisa dulce o amable
@@ -37,13 +37,12 @@ EMOJI=$(cat <<EOF
 😝 Lengua afuera y ojos cerrados
 😜 Sacando lengua y guiñando un ojo
 🤪 Cara loca o divertida
-🤨 Ceja levantada, sospechando
+🤨 Ceja levantada / sospechando
 🧐 Mirando con monóculo
 🤓 Cara de nerd
-😎 Con gafas de sol, cool
 🥸 Disfrazado con gafas y bigote
 🤩 Fascinado o deslumbrado
-🥳 De fiesta o celebrando
+🥳 De fiesta o celebrando / feliz
 😏 Sonrisa pícara
 😒 Cara molesta o aburrida
 😞 Decepcionado
@@ -411,17 +410,17 @@ EMOJI=$(cat <<EOF
 🕯️ Vela  
 🧯 Extintor  
 🛢️ Barril de petróleo  
-💰 Bolsa de dinero  
-💴 Billete japonés  
-💵 Billete de dólar  
-💶 Billete de euro  
-💷 Billete de libra  
-💸 Dinero volando  
-💳 Tarjeta de crédito  
-🪙 Moneda  
+💰 Dinero / Plata / Bolsa de dinero  
+💴 Dinero / Plata / Billete japonés  
+💵 Dinero / Plata / Billete de dólar  
+💶 Dinero / Plata / Billete de euro  
+💷 Dinero / Plata / Billete de libra  
+💸 Dinero / Plata / Dinero volando  
+💳 Dinero / Plata / Tarjeta de crédito  
+🪙 Dinero / Plata / Moneda  
 💹 Gráfico con tendencia  
 💱 Cambio de divisas  
-💲 Símbolo de dólar  
+💲 Dinero / Plata / Símbolo de dólar  
 🧾 Recibo  
 📜 Pergamino  
 📃 Hoja de papel  
@@ -871,11 +870,11 @@ EMOJI=$(cat <<EOF
 📛 Insignia de nombre  
 🔰 Símbolo japonés de principiante  
 ⭕ Círculo rojo  
-✅ Marca de verificación  
+✅ Marca de verificación / correcto / bien  
 ☑️ Casilla marcada  
-✔️ Marca de chequeo  
-❌ X roja  
-❎ Botón X  
+✔️ Marca de chequeo / revisado / listo
+❌ X roja  / incorrecto / mal
+❎ Botón X / incorrecto / mal
 ➕ Signo de más  
 ➖ Signo de menos  
 ➗ Signo de división  
@@ -1168,7 +1167,7 @@ EMOJI=$(cat <<EOF
 🏧 Cajero automático  
 🚮 Basura  
 🚰 Agua potable  
-♿ Accesibilidad  
+♿ Accesibilidad / silla de ruedas
 🚹 Hombres  
 🚺 Mujeres  
 🚻 Baños  
@@ -1178,7 +1177,7 @@ EMOJI=$(cat <<EOF
 🛃 Aduana  
 🛄 Reclamo de equipaje  
 🛅 Guarda equipaje  
-⚠️ Precaución  
+⚠️ Precaución / atención / advertencia
 🚸 Niños cruzando  
 ⛔ No pasar  
 🚫 Prohibido  
@@ -1217,7 +1216,7 @@ EMOJI=$(cat <<EOF
 🆗 OK  
 🆘 SOS  
 🆚 Versus  
-💯 Cien puntos  
+💯 Cien puntos / 100 % / cien porciento
 🔠 Mayúsculas  
 🔡 Minúsculas  
 🔢 Números  

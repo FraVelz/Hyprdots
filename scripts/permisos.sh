@@ -31,6 +31,10 @@ echo -e " [+] Nvim Listo!!! \n"
 sudo chown -R fravelz:fravelz ~/.config/kitty
 echo -e " [+] Kitty Listo!!! \n"
 
+# fondos de pantalla (wallpapers)
+sudo chown -R fravelz:fravelz ~/.config/wallpapers
+echo -e " [+] Wallpapers Listo!!! \n"
+
 # fastfetch
 sudo chown -R fravelz:fravelz ~/.config/fastfetch
 echo -e " [+] Fastfetch Listo!!! \n"

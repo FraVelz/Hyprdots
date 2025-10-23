@@ -6,6 +6,8 @@ Ver demostración de estilos completos en mi canal de YouTube:
 
 O revisa directamente la configuración de interés.
 
+Atajos de teclado de esta configuración: [Ir a atajos de teclado](./atajos.md)
+
 ---
 
 ## Temario
@@ -259,6 +261,6 @@ Ejemplo de uso del archivo `style-formatter.css` en VS Code:
 
 ## Información
 
-**Actualización:** 0.0.7
+**Actualización:** 0.0.8
 
 **Autor:** Fravelz
