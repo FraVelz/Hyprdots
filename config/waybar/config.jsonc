@@ -205,32 +205,9 @@
         }
     },
 
-  "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-bluetooth": "{icon} {volume}% 󰂯",
-    "format-bluetooth-muted": "󰖁 {icon} 󰂯",
-    "format-muted": "󰖁 {volume}%",
-    "format-source": " {volume}%",
-    "format-source-muted": "",
-
-    "format-icons": {
-      "headphone": "󰋋",
-      "hands-free": "󱡒",
-      "headset": "󰋎",
-      "phone": "",
-      "portable": "",
-      "car": "",
-      "default": ["", "", ""]
-    },
-
-    "on-click": "pavucontrol"
-  },
-
   "wireplumber": {
     "format": "{icon} {volume:>2}% ",
     "format-muted": "󰖁 {volume:>2}% ",
-    "format-bluetooth": "{icon} {volume:>2}% 󰂯 ",
-    "format-bluetooth-muted": "󰖁 {icon} 󰂯 ",
     "format-icons": ["", " ", " "],
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
   },

@@ -52,7 +52,7 @@ mainbox {
 imagebox {
     padding:               20px;
     background-color:      transparent;
-    background-image:      url("~/.config/bin/images/arch-linux.png", height);
+    background-image:      url("~/.config/rofi/images/arch-linux.png", height);
     orientation:           vertical;
     children:              [ "inputbar", "dummy", "mode-switcher" ];
 }
@@ -80,6 +80,7 @@ inputbar {
     text-color:            @foreground;
     children:              [ "textbox-prompt-colon", "entry" ];
 }
+
 textbox-prompt-colon {
     enabled:               true;
     expand:                false;
@@ -87,6 +88,7 @@ textbox-prompt-colon {
     background-color:      inherit;
     text-color:            inherit;
 }
+
 entry {
     enabled:               true;
     background-color:      inherit;
@@ -104,6 +106,7 @@ mode-switcher{
     background-color:      transparent;
     text-color:            @foreground;
 }
+
 button {
     padding:               15px;
     border-radius:         10px;
@@ -111,6 +114,7 @@ button {
     text-color:            inherit;
     cursor:                pointer;
 }
+
 button selected {
     background-color:      @selected;
     text-color:            @foreground;
@@ -146,37 +150,46 @@ element {
     background-color:      transparent;
     text-color:            @foreground;
     cursor:                pointer;
+    children:              [ element-icon, element-text ];
 }
+
 element normal.normal {
     background-color:      inherit;
     text-color:            inherit;
 }
+
 element normal.urgent {
     background-color:      @urgent;
     text-color:            @foreground;
 }
+
 element normal.active {
     background-color:      @active;
     text-color:            @foreground;
 }
+
 element selected.normal {
     background-color:      @selected;
     text-color:            @foreground;
 }
+
 element selected.urgent {
     background-color:      @urgent;
     text-color:            @foreground;
 }
+
 element selected.active {
     background-color:      @urgent;
     text-color:            @foreground;
 }
+
 element-icon {
     background-color:      transparent;
     text-color:            inherit;
     size:                  32px;
     cursor:                inherit;
 }
+
 element-text {
     background-color:      transparent;
     text-color:            inherit;
@@ -190,6 +203,7 @@ element-text {
 message {
     background-color:      transparent;
 }
+
 textbox {
     padding:               15px;
     border-radius:         10px;
@@ -198,6 +212,7 @@ textbox {
     vertical-align:        0.5;
     horizontal-align:      0.0;
 }
+
 error-message {
     padding:               15px;
     border-radius:         20px;
@@ -205,10 +220,14 @@ error-message {
     text-color:            @foreground;
 }
 
+/* Informacion **************************************************** */
 
-/* **************************************************************** */
-/* * Modificador: Fravelz                                           */
-
-/* * Autor codigo base - github: @adi1090x (Aditya Shakya)          */
-/* * Enlace: https://github.com/adi1090x/rofi/tree/master?tab=readme-ov-file */
-/* **************************************************************** */
+/**
+ * Modificado por: Fravelz
+ *
+ * Autor: Aditya Shakya (adi1090x)
+ * Github: @adi1090x
+ * 
+ * Rofi Theme File
+ * Rofi Version: 1.7.3
+ **/

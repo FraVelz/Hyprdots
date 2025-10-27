@@ -17,6 +17,7 @@
   - [💬 Resumen total](#-resumen-total)
   - [⚙️ Comandos básicos dentro de Kitty](#️-comandos-básicos-dentro-de-kitty)
     - [⚡ Atajos básicos (idénticos a Bash)](#-atajos-básicos-idénticos-a-bash)
+  - [Bash  y zsh Comandos](#bash--y-zsh-comandos)
     - [⚙️ Atajos especiales de Zsh (ZLE)](#️-atajos-especiales-de-zsh-zle)
     - [🧠 Si usas Oh My Zsh o Powerlevel10k](#-si-usas-oh-my-zsh-o-powerlevel10k)
     - [🧩 Ver o personalizar los atajos](#-ver-o-personalizar-los-atajos)
@@ -138,11 +139,8 @@ Existen **41 atajos activos**.
 
 ---
 
-Sí ✅ — **Zsh tiene sus propios atajos de teclado**, y además **hereda muchos de Bash**, porque ambos usan la misma biblioteca de edición de línea: **Readline** (aunque Zsh puede usar su propio sistema, llamado **ZLE – Zsh Line Editor**).
-
-En otras palabras:
-
 - muchos atajos de Bash funcionan igual en Zsh,
+
 - pero **Zsh añade algunos más potentes y personalizables**.
 
 ---
@@ -163,6 +161,10 @@ En otras palabras:
 | `Ctrl + D` | Cerrar la sesión (si la línea está vacía) |
 | `Alt + B`  | Moverse una palabra atrás                 |
 | `Alt + F`  | Moverse una palabra adelante              |
+
+---
+
+## Bash  y zsh Comandos
 
 ---
 

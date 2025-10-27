@@ -1,7 +1,7 @@
 /* Tema Rofi limpio y compatible */
 
 configuration {
-    font: "JetBrains Mono Nerd Font 12";
+    font: "JetBrains Mono Nerd Font 14";
 }
 
 window {

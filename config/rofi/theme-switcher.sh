@@ -5,7 +5,16 @@
 THEMES_DIR="$HOME/.config/themes" # Directorio de temas
 
 # Mostrar lista de temas disponibles con wofi
-THEME=$(ls $THEMES_DIR | rofi -dmenu -p "> " -theme ~/.config/bin/styles/theme-switcher.rasi)
+OPTIONS_FILE=$(mktemp)  # Crea un archivo temporal donde se guardarán las opciones.
+
+for name in "$THEMES_DIR"/*; do
+    img="$name/wallpaper.jpg"
+
+    # Escribe en el archivo: nombre + separadores especiales para rofi + icono.
+    printf '%s\0icon\x1f%s\n' "$(basename "$name")" "$img" >> "$OPTIONS_FILE"
+done
+
+THEME=$(cat "$OPTIONS_FILE" | rofi -i -dmenu -show-icons -theme ~/.config/rofi/styles/theme-switcher.rasi)
 
 # Si el usuario cancela
 [ -z "$THEME" ] && exit 0
@@ -22,9 +31,9 @@ cp $T_PATH/style-hypr.conf $HOME/.config/hypr/colors.conf
 ##HYPR_THEME="$HOME/.config/hypr/hyprland.conf"
 
 # Aplicar colores a wofi
-cp $T_PATH/styles-bin/powermenu.rasi     $HOME/.config/bin/styles/powermenu.rasi
-cp $T_PATH/styles-bin/selector-app.rasi  $HOME/.config/bin/styles/selector-app.rasi
-cp $T_PATH/styles-bin/themeswitcher.rasi $HOME/.config/bin/styles/themeswitcher.rasi
+# cp $T_PATH/styles-bin/powermenu.rasi     $HOME/.config/rofi/styles/powermenu.rasi
+# cp $T_PATH/styles-bin/selector-app.rasi  $HOME/.config/rofi/styles/selector-app.rasi
+# cp $T_PATH/styles-bin/themeswitcher.rasi $HOME/.config/rofi/styles/themeswitcher.rasi
 
 # Aplicar colores y estilo a waybar
 #cp $T_PATH/.css $HOME/.config/waybar/style.css

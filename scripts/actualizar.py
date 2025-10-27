@@ -12,7 +12,7 @@ ruta_hyprdots = f'{ruta_usuario}/Documentos/Hyprdots'
 ruta_config = f'{ruta_usuario}/.config'
 
 configuraciones_config = [
-    'bin',
+    'rofi',
     'fastfetch',
     'hypr',
     'kitty',
