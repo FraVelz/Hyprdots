@@ -5,7 +5,7 @@
 THEMES_DIR="$HOME/.config/themes" # Directorio de temas
 
 # Mostrar lista de temas disponibles con wofi
-THEME=$(ls $THEMES_DIR | rofi -dmenu -p "> " -theme ~/.config/bin/styles/themeswitcher.rasi)
+THEME=$(ls $THEMES_DIR | rofi -dmenu -p "> " -theme ~/.config/bin/styles/theme-switcher.rasi)
 
 # Si el usuario cancela
 [ -z "$THEME" ] && exit 0
