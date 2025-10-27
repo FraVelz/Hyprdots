@@ -1521,7 +1521,7 @@ EMOJI=$(cat <<EOF
 EOF
 )
 
-chosen=$(echo "$EMOJI" | rofi -dmenu -i -p "Emoji" | awk '{print $1}')
+chosen=$(echo "$EMOJI" | rofi -dmenu -i -p "Emoji" -theme ~/.config/rofi/styles/menu-iconos.rasi | awk '{print $1}')
 
 if [ -n "$chosen" ]; then
     echo -n "$chosen" | wl-copy
