@@ -1,12 +1,6 @@
 {
   "layer": "top",
   "position": "bottom",
-  "height": 25,
-
-  "margin-left": 5,
-  "margin-right": 5,
-  "margin-top": 5,
-  "margin-bottom": 0,
 
   "spacing": 1,
   "reload_style_on_change": true,
@@ -31,7 +25,7 @@
     "orientation": "horizontal",
 
     "modules": [ 
-      "custom/arch",
+      "custom/win",
       "hyprland/workspaces"
     ]
   },
@@ -127,7 +121,7 @@
 
 
   "clock": {
-    "format": "{:%H:%M - %h %d}",
+    "format": "{:%I:%M %p\n%d/%m/%Y}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}"
   },
@@ -273,11 +267,12 @@
     "tooltip-format": "AUR packages"
   },
 
-  "custom/arch": {
+  "custom/win": {
     "format": "{icon}",
-    "format-icons": " ",
+    "format-icons": " ",
     "exec-on-event": "true",
-    "tooltip-format": "Arch Linux"
+    "tooltip-format": false,
+    "on-click": "~/.config/rofi/selector-app.sh"
   },
 
   "custom/pacman": {

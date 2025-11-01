@@ -1,4 +1,34 @@
-@import "colors.css";
+@define-color rosewater #f5e0dc;
+@define-color flamingo #f2cdcd;
+@define-color pink #f5c2e7;
+
+@define-color mauve #89b4fa;
+
+@define-color red #f38ba8;
+@define-color maroon #eba0ac;
+@define-color peach #fab387;
+@define-color yellow #f9e2af;
+@define-color green #a6e3a1;
+@define-color teal #94e2d5;
+@define-color sky #89dceb;
+@define-color sapphire #74c7ec;
+@define-color blue #89b4fa;
+@define-color lavender #b4befe;
+
+@define-color text #f0f8ff;
+
+@define-color subtext1 #bac2de;
+@define-color subtext0 #a6adc8;
+@define-color overlay2 #9399b2;
+@define-color overlay1 #7f849c;
+@define-color overlay0 #6c7086;
+@define-color surface2 #585b70;
+@define-color surface1 #45475a;
+@define-color surface0 #313244;
+
+@define-color base #1e303e;
+@define-color mantle #101010;
+@define-color crust #11111b;
 
 * {
     min-height: 0;
@@ -8,7 +38,7 @@
 
 #waybar {
     background-color: @base;
-    border: 2px solid @mauve;
+    border-right: 4px solid #586377;
 }
 
 #waybar .module {
@@ -53,6 +83,15 @@ button:hover {
     color: @text;
     animation: ws_normal 20s ease-in-out 1;
 }
+
+#custom-win {
+    font-size: 30px;
+    color: #f0f8ff;
+}
+#custom-win:hover {
+    color: #0b42b9;
+}
+
 
 #workspaces button.active {
     background: @mauve;

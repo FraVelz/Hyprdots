@@ -16,7 +16,10 @@
     border: 2px;
 }
 
-#waybar .module:hover { color: @mauve; }
+#waybar .module:hover {
+    color: @mauve;
+    background-color: @base;
+}
 
 #window#waybar {
     color: @text;
