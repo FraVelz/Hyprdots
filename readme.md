@@ -261,6 +261,6 @@ Ejemplo de uso del archivo `style-formatter.css` en VS Code:
 
 ## Información
 
-**Actualización:** 0.1.0
+**Actualización:** 0.1.1
 
 **Autor:** Fravelz
