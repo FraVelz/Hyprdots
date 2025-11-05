@@ -46,7 +46,7 @@ function cleartarget(){
 
 # comando para taildwindcss
 
-function taildwindcss(){
+function tailwindcss(){
   npx tailwindcss -i ./input.css -o ./output.css --watch
 }
 
