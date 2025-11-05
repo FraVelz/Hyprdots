@@ -44,6 +44,17 @@ function cleartarget(){
     echo '' > /home/fravelz/.config/bin/target
 }
 
+# comando para taildwindcss
+
+function taildwindcss(){
+  npx tailwindcss -i ./input.css -o ./output.css --watch
+}
+
+# comando para reactjs
+function reactjs(){
+  pnpm run dev
+}
+
 # Eliminar para que sea inrrecuperable
 rmk(){
   if [ -z "$1" ]; then
