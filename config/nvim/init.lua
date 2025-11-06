@@ -15,6 +15,9 @@ local lazy_config = require "configs.lazy"
 
 -- load plugins
 require("lazy").setup({
+  { "nvzone/volt" , lazy = true },
+  { "nvzone/menu" , lazy = true },
+
   {
     "NvChad/NvChad",
     lazy = false,
@@ -36,6 +39,24 @@ vim.schedule(function()
   require "mappings"
 end)
 
+-- Keyboard users
+vim.keymap.set("n", "<C-t>", function()
+  require("menu").open("default")
+end, {})
+
+-- mouse users + nvimtree users!
+vim.keymap.set({ "n", "v" }, "<RightMouse>", function()
+  require('menu.utils').delete_old_menus()
+
+  vim.cmd.exec '"normal! \\<RightMouse>"'
+
+  -- clicked buf
+  local buf = vim.api.nvim_win_get_buf(vim.fn.getmousepos().winid)
+  local options = vim.bo[buf].ft == "NvimTree" and "nvimtree" or "default"
+
+  require("menu").open(options, { mouse = true })
+end, {})
+
 -----------------------------------------------------------
 -- 🧩 CONFIGURACIÓN GENERAL DE NEOVIM
 -----------------------------------------------------------
@@ -45,8 +66,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 -----------------------------------------------------------
--- ⌨️ ATAJOS DE TECLADO (KEYMAPS)
------------------------------------------------------------
+-- ⌨️ ATAJOS DE TECLADO (KEYMAPS) -----------------------------------------------------------
 
 -- Atajos de movimiento entre ventanas (pane navigation)
 vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = "Mover al panel izquierdo" })
