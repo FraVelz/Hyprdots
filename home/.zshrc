@@ -44,6 +44,12 @@ function cleartarget(){
     echo '' > /home/fravelz/.config/bin/target
 }
 
+# Crear archivos
+
+function mkt(){
+  mkdir {nmap,content,scripts}
+}
+
 # comando para taildwindcss
 
 function tailwindcss(){
