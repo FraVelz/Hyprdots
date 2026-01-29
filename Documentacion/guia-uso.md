@@ -1,39 +1,26 @@
-# Atajos de Teclado
+# 📖 Guía de Uso - Hyprdots
+
+Esta guía contiene toda la información necesaria para usar y personalizar tu configuración de Hyprdots.
 
 ---
 
-## Temario
+## 📑 Contenido
 
-- [Atajos de Teclado](#atajos-de-teclado)
-  - [Temario](#temario)
-  - [🎮 Modificadores principales](#-modificadores-principales)
-  - [🧩 Gestión de ventanas](#-gestión-de-ventanas)
-  - [🧠 Menús personalizados](#-menús-personalizados)
-  - [🧭 Movimiento entre ventanas](#-movimiento-entre-ventanas)
-  - [🧱 Espacios de trabajo (Workspaces)](#-espacios-de-trabajo-workspaces)
-  - [🖱️ Gestos del ratón](#️-gestos-del-ratón)
-  - [🔊 Multimedia](#-multimedia)
-  - [💡 Brillo](#-brillo)
-  - [💬 Resumen total](#-resumen-total)
-  - [⚙️ Comandos básicos dentro de Kitty](#️-comandos-básicos-dentro-de-kitty)
-    - [⚡ Atajos básicos (idénticos a Bash)](#-atajos-básicos-idénticos-a-bash)
-  - [Bash  y zsh Comandos](#bash--y-zsh-comandos)
-    - [⚙️ Atajos especiales de Zsh (ZLE)](#️-atajos-especiales-de-zsh-zle)
-    - [🧠 Si usas Oh My Zsh o Powerlevel10k](#-si-usas-oh-my-zsh-o-powerlevel10k)
-    - [🧩 Ver o personalizar los atajos](#-ver-o-personalizar-los-atajos)
-
-[Regresar a la guía principal](./readme.md#hyprdots)
+1. [Atajos de Teclado](#atajos-de-teclado)
+2. [Gestión de Temas](#gestión-de-temas)
+3. [Cambiar Wallpapers](#cambiar-wallpapers)
+4. [Estructura de Configuración](#estructura-de-configuración)
 
 ---
 
-## 🎮 Modificadores principales
+## ⌨️ Atajos de Teclado
+
+### Modificadores Principales
 
 - `$mainMod = SUPER` → tecla **Windows / Super**
 - `$secondMod = SUPER_SHIFT` → **Windows + Shift**
 
----
-
-## 🧩 Gestión de ventanas
+### Gestión de Ventanas
 
 | Atajo              | Acción                                                          |
 | ------------------ | --------------------------------------------------------------- |
@@ -46,53 +33,43 @@
 | **Super + F**      | Abrir Firefox                                                   |
 | **Super + Z**      | Abrir herramienta de captura (`flameshot gui`)                  |
 
----
-
-## 🧠 Menús personalizados
+### Menús Personalizados
 
 | Atajo                      | Acción                                                       |
 | -------------------------- | ------------------------------------------------------------ |
 | **Super + D**              | Abrir lanzador de aplicaciones (`rofi -show drun`)           |
-| **Super + Q**              | Abrir menú de apagado (`~/.config/bin/power-menu.sh`)        |
-| **Super + A**              | Abrir cambiador de temas (`~/.config/bin/theme-switcher.sh`) |
-| **Super + W**              | Abrir cambiador de fondos(`~/.config/bin/wallpaper-switcher.sh`) |
-| **Super + E**              | Menú de iconos (`~/.config/bin/menu-iconos.sh`)              |
-| **Super + Shift + Return** | Activar “modo hacker” (`~/.config/bin/mode-hacker.sh`)       |
+| **Super + Q**              | Abrir menú de apagado (`~/.config/rofi/power-menu.sh`)      |
+| **Super + A**              | Abrir cambiador de temas (`~/.config/rofi/theme-switcher.sh`) |
+| **Super + W**              | Abrir cambiador de fondos (`~/.config/rofi/wallpaper-switcher.sh`) |
+| **Super + E**              | Menú de iconos (`~/.config/rofi/menu-iconos.sh`)              |
+| **Super + Shift + Return** | Activar "modo hacker" (`~/.config/rofi/mode-hacker.sh`)       |
 
----
-
-## 🧭 Movimiento entre ventanas
+### Movimiento entre Ventanas
 
 | Atajo                     | Acción                                                 |
 | ------------------------- | ------------------------------------------------------ |
 | **Super + ← / → / ↑ / ↓** | Mover foco entre ventanas (izq / der / arriba / abajo) |
 | **Super + H / L / K / J** | Mover foco (equivalente a las flechas)                 |
 
----
-
-## 🧱 Espacios de trabajo (Workspaces)
+### Espacios de Trabajo (Workspaces)
 
 | Atajo                     | Acción                                             |
 | ------------------------- | -------------------------------------------------- |
 | **Super + [1–0]**         | Cambiar al workspace correspondiente               |
 | **Super + Shift + [1–0]** | Mover ventana activa al workspace correspondiente  |
-| **Super + S**             | Activar workspace especial “magic”                 |
-| **Super + Shift + S**     | Mover ventana activa al workspace especial “magic” |
+| **Super + S**             | Activar workspace especial "magic"                 |
+| **Super + Shift + S**     | Mover ventana activa al workspace especial "magic" |
 | **Super + Scroll Up**     | Ir al workspace anterior                           |
 | **Super + Scroll Down**   | Ir al siguiente workspace                          |
 
----
-
-## 🖱️ Gestos del ratón
+### Gestos del Ratón
 
 | Atajo                                  | Acción                |
 | -------------------------------------- | --------------------- |
 | **Super + clic izquierdo (mouse:272)** | Mover ventana         |
 | **Super + clic derecho (mouse:273)**   | Redimensionar ventana |
 
----
-
-## 🔊 Multimedia
+### Multimedia
 
 | Atajo                     | Acción                        |
 | ------------------------- | ----------------------------- |
@@ -104,24 +81,14 @@
 | **XF86AudioPrev**         | Pista anterior                |
 | **XF86AudioPlay / Pause** | Reproducir / pausar           |
 
----
-
-## 💡 Brillo
+### Brillo
 
 | Atajo                     | Acción             |
 | ------------------------- | ------------------ |
 | **XF86MonBrightnessUp**   | Subir brillo (+5%) |
 | **XF86MonBrightnessDown** | Bajar brillo (-5%) |
 
-*(Tienes dos versiones: una normal y otra con `bindel` que usa `brightnessctl -e4 -n2` para mejor compatibilidad.)*
-
-## 💬 Resumen total
-
-Existen **41 atajos activos**.
-
----
-
-## ⚙️ Comandos básicos dentro de Kitty
+### Comandos Básicos dentro de Kitty
 
 | Acción                            | Atajo por defecto              | Descripción                                   |
 | :-------------------------------- | :----------------------------- | :-------------------------------------------- |
@@ -137,15 +104,9 @@ Existen **41 atajos activos**.
 | **Abrir configuración**           | `Ctrl + Shift + f2`            | Abre el archivo `kitty.conf` para editar.     |
 | **Recargar configuración**        | `Ctrl + Shift + f5`            | Aplica cambios sin reiniciar.                 |
 
----
+### Atajos de Terminal (Bash/Zsh)
 
-- muchos atajos de Bash funcionan igual en Zsh,
-
-- pero **Zsh añade algunos más potentes y personalizables**.
-
----
-
-### ⚡ Atajos básicos (idénticos a Bash)
+#### Atajos Básicos (idénticos a Bash)
 
 | Atajo      | Acción                                    |
 | ---------- | ----------------------------------------- |
@@ -162,13 +123,7 @@ Existen **41 atajos activos**.
 | `Alt + B`  | Moverse una palabra atrás                 |
 | `Alt + F`  | Moverse una palabra adelante              |
 
----
-
-## Bash  y zsh Comandos
-
----
-
-### ⚙️ Atajos especiales de Zsh (ZLE)
+#### Atajos Especiales de Zsh (ZLE)
 
 | Atajo                | Acción                                                                     |
 | -------------------- | -------------------------------------------------------------------------- |
@@ -179,35 +134,191 @@ Existen **41 atajos activos**.
 | `Ctrl + X, *`        | Expande un patrón tipo `*.txt` directamente                                |
 | `Ctrl + X, Q`        | Cita (escapa) caracteres especiales automáticamente                        |
 
----
-
-### 🧠 Si usas Oh My Zsh o Powerlevel10k
-
-Puedes tener **atajos extra**, como:
-
-- `Alt + ↑` / `Alt + ↓` → navegar por comandos anteriores que empiezan igual.
-- `Ctrl + Space` → autocompletado avanzado (si lo activas).
-- `Ctrl + G` → cancelar búsqueda interactiva del historial.
+**Resumen:** Existen **41 atajos activos** en Hyprland.
 
 ---
 
-### 🧩 Ver o personalizar los atajos
+## 🎨 Gestión de Temas
 
-Puedes listar todos los atajos activos con:
+### Cambiar Tema
+
+Usa el atajo **Super + A** o ejecuta manualmente:
 
 ```bash
-bindkey
+~/.config/rofi/theme-switcher.sh
 ```
 
-Y reasignar uno, por ejemplo:
+El script detecta automáticamente si un tema es:
+- **Modular**: Solo colores y override específicos (recomendado)
+- **Independiente**: Tiene su propio `hyprland.conf` completo (ej: Windows10)
+
+### Tipos de Temas
+
+#### Tema Modular (Recomendado)
+
+Un tema modular solo contiene las diferencias específicas:
+
+```
+themes/Anime/
+├── hypr/
+│   ├── colors.conf           # Solo los colores diferentes
+│   ├── wallpaper.jpg         # El wallpaper del tema
+│   └── theme-override.conf   # (Opcional) Override específico
+├── kitty/
+│   └── colors.ini            # Colores de kitty
+└── waybar/
+    └── colors.css            # Colores de waybar
+```
+
+**Ventajas:**
+- ✅ Fácil de mantener
+- ✅ Reutiliza la configuración base
+- ✅ Cambios en la base se aplican automáticamente
+- ✅ Menos código duplicado
+
+#### Tema Independiente
+
+Un tema independiente tiene su propio `hyprland.conf` completo. Se usa cuando el tema necesita cambios muy diferentes (ej: sin gaps, sin animaciones).
+
+### Crear un Nuevo Tema Modular
+
+1. Crear directorio del tema:
+```bash
+mkdir -p ~/.config/themes/Mi-Tema/hypr
+```
+
+2. Crear `colors.conf`:
+```conf
+# Colors
+$background = rgba(1e1e2eff)
+$foreground = rgba(cdd6f4ff)
+$active_border1 = rgba(9ecddfee)
+$active_border2 = rgba(aabbccaa)
+$inactive_border = rgba(9ecddf11)
+$shadow = rgba(00000099)
+```
+
+3. Agregar wallpaper:
+```bash
+cp mi-wallpaper.jpg ~/.config/themes/Mi-Tema/hypr/wallpaper.jpg
+```
+
+4. (Opcional) Crear `theme-override.conf` si necesitas cambios específicos:
+```conf
+# Ejemplo: Cambiar gaps solo para este tema
+general {
+    gaps_in = 10
+    gaps_out = 20
+}
+```
+
+### Ver Tema Actual
+
+El tema actual se refleja en:
+- `~/.config/hypr/colors.conf` (colores)
+- `~/.config/hypr/conf.d/theme-override.conf` (override)
+
+---
+
+## 🖼️ Cambiar Wallpapers
+
+### Usar el Selector de Wallpapers
+
+Usa el atajo **Super + W** o ejecuta manualmente:
 
 ```bash
-bindkey '^P' up-line-or-history
-bindkey '^N' down-line-or-history
+~/.config/rofi/wallpaper-switcher.sh
+```
+
+Este script:
+- Muestra todos los wallpapers de `~/.config/wallpapers/`
+- Detecta automáticamente los monitores disponibles
+- Aplica el wallpaper seleccionado a todos los monitores
+- Recarga hyprpaper automáticamente
+
+### Wallpapers Renombrados
+
+Los wallpapers ahora tienen nombres descriptivos usando guiones:
+- `abstract-colorful-1.webp`
+- `anime-green-woman.webp`
+- `batman-dark-1.jpg`
+- `cyberpunk-pixel-city.webp`
+- etc.
+
+---
+
+## 📂 Estructura de Configuración
+
+### Archivos Principales
+
+```
+~/.config/hypr/
+├── hyprland.conf          # Archivo principal (incluye módulos)
+├── colors.conf             # Colores del tema actual
+├── hyprpaper.conf          # Configuración de wallpaper
+└── conf.d/                 # Módulos de configuración
+    ├── monitors.conf       # Configuración de monitores
+    ├── environment.conf    # Variables de entorno
+    ├── autostart.conf      # Programas al inicio
+    ├── general.conf        # Look & feel (gaps, borders, animations)
+    ├── input.conf          # Configuración de teclado/ratón
+    ├── keybinds.conf       # Todos los atajos de teclado
+    ├── windows.conf        # Reglas de ventanas
+    └── theme-override.conf # Override del tema actual (generado automáticamente)
+```
+
+### Editar Configuración
+
+- **Keybinds**: `~/.config/hypr/conf.d/keybinds.conf`
+- **Look & Feel**: `~/.config/hypr/conf.d/general.conf`
+- **Input**: `~/.config/hypr/conf.d/input.conf`
+- **Monitores**: `~/.config/hypr/conf.d/monitors.conf`
+
+### Recargar Configuración
+
+Después de editar cualquier archivo de configuración:
+
+```bash
+hyprctl reload
 ```
 
 ---
 
-[Regresar a la guía principal](./readme.md#hyprdots)
+## 🛠️ Mantenimiento Básico
 
-> **Autor:** Fravelz
+### Agregar un Nuevo Keybind
+
+Editar `~/.config/hypr/conf.d/keybinds.conf` y agregar:
+
+```conf
+bind = $mainMod, X, exec, mi-aplicacion
+```
+
+Luego recargar: `hyprctl reload`
+
+### Modificar un Tema Específico
+
+1. Editar `~/.config/themes/[Tema]/hypr/theme-override.conf`
+2. O crear uno nuevo si no existe
+3. Cambiar al tema para aplicar cambios
+
+### Solución de Problemas
+
+#### El tema no se aplica:
+1. Verifica que `colors.conf` existe en el tema
+2. Verifica que `theme-override.conf` se generó correctamente
+3. Revisa los logs: `hyprctl reload` debería mostrar errores
+
+#### Error de sintaxis:
+1. Verifica que los archivos `.conf` tienen sintaxis válida
+2. Usa `hyprctl reload` para ver errores específicos
+
+#### Hyprpaper no funciona:
+1. Verifica que el archivo existe: `~/.config/hypr/hyprpaper.conf`
+2. Verifica que hyprpaper está corriendo: `ps aux | grep hyprpaper`
+3. Reinicia hyprpaper: `killall hyprpaper && hyprpaper &`
+
+---
+
+**Autor:** Fravelz  
+**Última actualización:** Reorganización modular 2024

@@ -44,6 +44,14 @@ function cleartarget(){
     echo '' > /home/fravelz/.config/bin/target
 }
 
+# Yo guardo todos mis archivos en la nuve entonces los tengo estructurados 
+# en carpetas y esta funcion sirve para entrar al directorio adonde tengo todos
+# mis archivos
+
+function home(){
+  cd ~/Documentos/notas/Notas-Personales-Markdown
+}
+
 # Crear archivos
 
 function mkt(){

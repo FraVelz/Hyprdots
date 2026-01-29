@@ -50,16 +50,39 @@ if [ ! -f "$WALL" ]; then
 fi
 
 # Sobrescribe la configuración de hyprpaper con la nueva imagen seleccionada.
-cat > "$HYPR_CONF" <<EOF
+# Obtener lista de monitores
+MONITORS=$(hyprctl monitors -j | jq -r '.[].name' 2>/dev/null || echo "")
+
+if [ -z "$MONITORS" ]; then
+    # Si no se pueden obtener monitores, usar sintaxis genérica
+    cat > "$HYPR_CONF" <<EOF
 preload = $WALL
 wallpaper = ,$WALL
 EOF
+else
+    # Crear configuración con cada monitor
+    {
+        echo "preload = $WALL"
+        for monitor in $MONITORS; do
+            echo "wallpaper = $monitor,$WALL"
+        done
+    } > "$HYPR_CONF"
+fi
 
 # RECARGAR HYPRPAPER ***********************************************************
 
-killall hyprpaper
+killall hyprpaper 2>/dev/null
+sleep 0.5
 hyprpaper & disown
+sleep 1
 
-notify-send -i "$WALL Wallpaper cambiado $FONDO"
+# Forzar recarga del wallpaper usando hyprctl si está disponible
+if command -v hyprctl >/dev/null 2>&1; then
+    for monitor in $MONITORS; do
+        hyprctl hyprpaper wallpaper "$monitor,$WALL" 2>/dev/null || true
+    done
+fi
+
+notify-send -i "$WALL" "Wallpaper cambiado: $FONDO"
 
 # Autor: Fravelz

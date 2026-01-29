@@ -1,7 +1,23 @@
+# 🖥️ Guía de SDDM - Gestor de Inicio de Sesión
+
+Esta guía explica cómo configurar y personalizar SDDM (Simple Desktop Display Manager) en Arch Linux.
 
 ---
 
-## 1. Ubicación de la configuración principal
+## 📑 Contenido
+
+1. [Ubicación de la Configuración](#ubicación-de-la-configuración)
+2. [Cambiar el Tema](#cambiar-el-tema)
+3. [Instalar Nuevos Temas](#instalar-nuevos-temas)
+4. [Cambiar el Fondo](#cambiar-el-fondo)
+5. [Personalizar Texto, Fuente y Colores](#personalizar-texto-fuente-y-colores)
+6. [Probar Cambios sin Reiniciar](#probar-cambios-sin-reiniciar)
+7. [Configurar Opciones Adicionales](#configurar-opciones-adicionales)
+8. [Reiniciar para Aplicar Cambios](#reiniciar-para-aplicar-cambios)
+
+---
+
+## 📍 Ubicación de la Configuración
 
 El archivo de configuración de SDDM está en:
 
@@ -23,7 +39,7 @@ sudo nano /etc/sddm.conf
 
 ---
 
-## 2. Cambiar el tema (Theme)
+## 🎨 Cambiar el Tema
 
 Los temas de SDDM se guardan en:
 
@@ -58,11 +74,11 @@ Guarda y reinicia para aplicar los cambios.
 
 ---
 
-## 3. Instalar nuevos temas
+## 📦 Instalar Nuevos Temas
 
 Puedes instalar temas adicionales manualmente o desde AUR.
 
-### Desde los repositorios oficiales (por ejemplo, temas de KDE):
+### Desde los Repositorios Oficiales (por ejemplo, temas de KDE):
 
 ```bash
 sudo pacman -S sddm-kcm
@@ -82,7 +98,7 @@ Los temas se instalan en `/usr/share/sddm/themes/` y puedes activarlos editando 
 
 ---
 
-## 4. Cambiar el fondo (Background)
+## 🖼️ Cambiar el Fondo
 
 Dentro de cada tema hay un archivo de configuración (generalmente `theme.conf` o `theme.conf.user`).
 
@@ -102,7 +118,7 @@ Puedes copiar tu fondo personalizado a esa ruta o usar la ruta completa de tu im
 
 ---
 
-## 5. Personalizar texto, fuente y colores
+## 🎨 Personalizar Texto, Fuente y Colores
 
 Dentro del mismo archivo `theme.conf` puedes ajustar:
 
@@ -117,7 +133,7 @@ Algunos temas usan QML, por lo que puedes modificar directamente los archivos `.
 
 ---
 
-## 6. Probar los cambios sin reiniciar
+## 🧪 Probar los Cambios sin Reiniciar
 
 Puedes ejecutar SDDM en modo de prueba (sin cerrar tu sesión actual):
 
@@ -129,7 +145,9 @@ Así ves los cambios sin reiniciar.
 
 ---
 
-## 7. Configurar opciones adicionales (autologin, usuario por defecto, sesión predeterminada)
+## ⚙️ Configurar Opciones Adicionales
+
+### Autologin, Usuario por Defecto, Sesión Predeterminada
 
 Edita `/etc/sddm.conf` y agrega:
 
@@ -149,7 +167,7 @@ Ejemplo: `hyprland.desktop`, `plasmawayland.desktop`, etc.
 
 ---
 
-## 8. Reinicia para aplicar todo
+## 🔄 Reiniciar para Aplicar Todo
 
 ```bash
 sudo systemctl restart sddm
@@ -159,7 +177,7 @@ O simplemente reinicia el sistema.
 
 ---
 
-## Consejo final
+## 💡 Consejo Final
 
 Si usas **Hyprland**, SDDM **no es la mejor opción** a largo plazo, porque:
 
@@ -169,3 +187,5 @@ Si usas **Hyprland**, SDDM **no es la mejor opción** a largo plazo, porque:
 👉 En ese caso, **Ly o greetd (con tuigreet o gtkgreet)** son más compatibles y ligeros.
 
 ---
+
+**Autor:** Fravelz
