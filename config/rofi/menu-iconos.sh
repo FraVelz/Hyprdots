@@ -9,14 +9,11 @@ EMOJI=$(cat <<EOF
 😎 Fachero / Con gafas de sol / cool
 👍 ok / listo / bueno
 😁 feliz / Caras y expresiones
-😀 feliz / Cara sonriendo
 😃 feliz / Cara feliz con ojos grandes
 😄 feliz / Cara muy sonriente
-😁 feliz / Cara sonriendo con dientes
 😆 Cara riendo mucho
 🥹 Cara conmovida o a punto de llorar
 😅 Cara sonriendo con sudor
-😂 Riendo con lágrimas / risas
 🤣 Carcajadas intensas / risas
 🥲 Sonrisa triste o nostálgica
 ☺️ Cara sonriente y tranquila
@@ -144,7 +141,6 @@ EMOJI=$(cat <<EOF
 🖕 Dedo medio
 👇 Apuntando hacia abajo
 ☝️ Índice hacia arriba (importante o atención)
-👍 Pulgar arriba (bien)
 👎 Pulgar abajo (mal)
 ✊ Puño levantado (fuerza o protesta)
 👊 Puño cerrado (golpe amistoso)
@@ -251,8 +247,6 @@ EMOJI=$(cat <<EOF
 🌲 Pino  
 🌳 Árbol frondoso  
 🌴 Palmera  
-🌹 Rosa  
-🌾 Trigo  
 🍇 Uvas  
 🍈 Melón  
 🍉 Sandía  
@@ -283,9 +277,7 @@ EMOJI=$(cat <<EOF
 🥦 Brócoli  
 🧄 Ajo  
 🧅 Cebolla  
-🍄 Hongo  
 🥜 Maní  
-🌰 Castaña  
 🍞 Pan  
 🥐 Croissant  
 🥖 Baguette  
@@ -469,7 +461,6 @@ EMOJI=$(cat <<EOF
 🪤 Trampa para ratones  
 🪒 Afeitadora  
 🧴 Loción  
-🧷 Alfiler  
 🧲 Imán  
 🧪 Tubo de ensayo  
 🧫 Placa de Petri  
@@ -479,9 +470,7 @@ EMOJI=$(cat <<EOF
 💊 Pastilla  
 🩹 Curita  
 🩼 Muleta  
-🦠 Microbio  
 🧰 Caja de herramientas  
-🧲 Imán  
 🔧 Llave inglesa  
 🔨 Martillo  
 ⚒️ Martillo y pico  
@@ -489,26 +478,14 @@ EMOJI=$(cat <<EOF
 🪓 Hacha  
 🔩 Tuerca y tornillo  
 ⚙️ Engranaje  
-🪤 Trampa  
 🧱 Ladrillo  
 ⛓️ Cadenas  
-🧲 Imán  
 ⚖️ Balanza  
 🪜 Escalera  
-🧯 Extintor  
-🪣 Cubeta  
-🪠 Desatascador  
-🧹 Escoba  
-🧺 Cesto  
-🧻 Rollo de papel  
-🪟 Ventana  
-🪞 Espejo  
 🛏️ Cama  
 🛋️ Sofá  
 🪑 Silla  
 🚪 Puerta  
-🪟 Ventana  
-🪞 Espejo  
 🛒 Carrito de compras  
 🎁 Regalo  
 🎈 Globo  
@@ -523,17 +500,10 @@ EMOJI=$(cat <<EOF
 🎇 Bengala  
 🎆 Fuegos artificiales  
 🧨 Petardo  
-✨ Brillo  
 🎄 Árbol de Navidad  
-🎃 Calabaza de Halloween  
 🎋 Árbol de Tanabata  
 🎍 Decoración de Año Nuevo  
 🎑 Festival de la luna  
-🎎 Muñecas japonesas  
-🎏 Banderines  
-🎐 Campanilla  
-🎀 Lazo decorativo  
-🎁 Regalo envuelto  
 ⚽ Balón de fútbol  
 🏀 Balón de baloncesto  
 🏈 Balón de fútbol americano  
@@ -604,7 +574,6 @@ EMOJI=$(cat <<EOF
 🪕 Banjo  
 🎻 Violín  
 🪈 Flauta  
-🎤 Cantante  
 🏟️ Estadio  
 🎡 Rueda de la fortuna  
 🎢 Montaña rusa  
@@ -645,7 +614,6 @@ EMOJI=$(cat <<EOF
 🚲 Bicicleta  
 🛴 Patinete  
 🛞 Llanta  
-🛢️ Barril  
 ⛽ Gasolinera  
 🚧 Señal de construcción  
 🚦 Semáforo vertical  
@@ -661,7 +629,6 @@ EMOJI=$(cat <<EOF
 🚁 Helicóptero  
 🛸 Platillo volador  
 🚀 Cohete  
-🛶 Bote  
 🚤 Lancha  
 🛥️ Yate  
 🛳️ Barco de pasajeros  
@@ -714,37 +681,12 @@ EMOJI=$(cat <<EOF
 🌇 Puesta de sol  
 🌉 Puente de noche  
 🌌 Vía Láctea  
-🎑 Festival de la luna  
 🌠 Estrella fugaz  
-🎆 Fuegos artificiales  
 🌈 Arcoíris  
-🏖️ Playa  
-🏜️ Desierto  
-🏕️ Campamento  
-🏞️ Parque natural  
-⌚ Reloj  
-📱 Teléfono móvil  
-📲 Teléfono móvil con flecha  
-💻 Computador portátil  
-⌨️ Teclado  
-🖥️ Computador de escritorio  
-🖨️ Impresora  
-🖱️ Ratón de computadora  
-🖲️ Trackball  
-💽 Disco  
-💾 Disquete  
-💿 CD  
-📀 DVD  
-📼 Cinta de video  
-📷 Cámara  
-📸 Cámara con flash  
-📹 Videocámara  
-🎥 Cámara de cine  
 📞 Teléfono fijo  
 ☎️ Teléfono clásico  
 📟 Buscapersonas  
 📠 Fax  
-📺 Televisor  
 📻 Radio  
 🎙️ Micrófono de estudio  
 🎚️ Control deslizante de audio  
@@ -759,42 +701,11 @@ EMOJI=$(cat <<EOF
 🔋 Batería  
 🪫 Batería baja  
 🔌 Enchufe  
-💡 Bombilla  
-🔦 Linterna  
-🕯️ Vela  
-🧯 Extintor  
-🧭 Brújula  
-⚖️ Balanza  
 ⚗️ Matraz de laboratorio  
-🧪 Tubo de ensayo  
-🧫 Placa de Petri  
-🧬 ADN  
 🔬 Microscopio  
 🔭 Telescopio  
 💎 Diamante  
-💰 Saco de dinero  
-💴 Billete japonés  
-💵 Billete estadounidense  
-💶 Billete europeo  
-💷 Billete británico  
-💸 Dinero volando  
-💳 Tarjeta de crédito  
-🪙 Moneda  
-💹 Gráfico con yen  
-💱 Cambio de divisas  
-💲 Símbolo de dólar  
-📈 Gráfico en aumento  
-📉 Gráfico en descenso  
-📊 Gráfico de barras  
-📋 Portapapeles  
-📆 Calendario  
-📅 Calendario con fecha  
-📇 Tarjeta de índice  
-📁 Carpeta  
-📂 Carpeta abierta  
 🗂️ Archivadores  
-🗃️ Caja de archivos  
-🗄️ Archivador  
 📦 Caja de envío  
 📫 Buzón cerrado  
 📪 Buzón vacío  
@@ -806,10 +717,6 @@ EMOJI=$(cat <<EOF
 📩 Correo saliente  
 📤 Bandeja de salida  
 📥 Bandeja de entrada  
-📜 Pergamino  
-📃 Documento  
-📄 Página  
-📑 Marcadores  
 🖊️ Bolígrafo  
 🖋️ Pluma  
 ✒️ Pluma estilográfica  
@@ -828,29 +735,7 @@ EMOJI=$(cat <<EOF
 🔐 Candado con llave  
 🗝️ Llave antigua  
 🔑 Llave  
-🪙 Moneda  
-🪞 Espejo  
-🪟 Ventana  
-🪑 Silla  
-🛋️ Sofá y lámpara  
-🛏️ Cama  
-🛁 Bañera  
-🚿 Ducha  
-🚽 Inodoro  
-🪠 Destapador  
-🪤 Trampa para ratones  
-🧴 Botella de loción  
-🧷 Seguro  
-🧹 Escoba  
-🧺 Cesta  
-🧻 Papel higiénico  
-🪣 Balde  
-🧼 Jabón  
-🧽 Esponja  
 🪥 Cepillo de dientes  
-🪒 Afeitadora  
-🧯 Extintor  
-🚪 Puerta  
 🚬 Cigarrillo (prohibido fumar)  
 🚭 Prohibido fumar  
 🚮 Tacho de basura  
@@ -863,7 +748,6 @@ EMOJI=$(cat <<EOF
 🚾 Servicios sanitarios  
 🛗 Ascensor  
 🛎️ Timbre de hotel  
-🧳 Maleta  
 ♻️ Reciclaje  
 ⚜️ Flor de lis  
 🔱 Tridente  
@@ -927,28 +811,8 @@ EMOJI=$(cat <<EOF
 🇮🇳 Bandera de India  
 🇷🇺 Bandera de Rusia  
 🇺🇳 Bandera de las Naciones Unidas  
-🧰 Caja de herramientas  
-🔧 Llave inglesa  
-🔨 Martillo  
-⚒️ Martillo y pico  
-🛠️ Martillo y llave inglesa  
-🪓 Hacha  
-🔩 Tornillo y tuerca  
-⚙️ Engrane  
 🪛 Destornillador  
-🧱 Ladrillo  
-⛓️ Cadena  
-🪝 Gancho  
-🪜 Escalera  
-⚗️ Matraz  
-🧪 Tubo de ensayo  
-🧫 Placa de Petri  
-🧬 ADN  
-🧯 Extintor  
-🧲 Imán  
 🪄 Varita mágica  
-🪅 Piñata  
-🪩 Bola de discoteca  
 🪆 Muñeca rusa  
 🪡 Aguja e hilo  
 🧵 Hilo  
@@ -967,7 +831,6 @@ EMOJI=$(cat <<EOF
 👒 Sombrero de mujer  
 🎩 Sombrero de copa  
 🎓 Birrete  
-🧢 Gorro  
 🪖 Casco militar  
 ⛑️ Casco con cruz  
 👞 Zapato  
@@ -982,57 +845,25 @@ EMOJI=$(cat <<EOF
 🧣 Bufanda  
 🧦 Medias  
 🩲 Ropa interior  
-🩳 Shorts  
-👙 Ropa de baño  
 💍 Anillo  
-💎 Joya  
-⌚ Reloj  
 🕶️ Gafas de sol  
 🕵️ Persona con sombrero  
-🪪 Credencial  
-🪙 Moneda  
 📿 Rosario  
 💄 Pintalabios  
 💋 Beso  
-💅 Uñas pintadas  
 💈 Poste de barbería  
-🪞 Espejo  
-🧴 Crema o loción  
-🧷 Imperdible  
 🪮 Peineta  
-🧼 Jabón  
-🧽 Esponja  
-🪥 Cepillo de dientes  
-🧻 Papel higiénico  
-🪒 Afeitadora  
-🧺 Cesta de ropa  
-🪣 Cubeta  
-🧹 Escoba  
-🧯 Extintor  
-🧳 Maleta  
 🎒 Mochila  
 🛍️ Bolsa de compras  
-🎁 Regalo  
-🎀 Lazo  
-🎈 Globo  
-🎉 Confeti  
-🎊 Serpentinas  
-🎆 Fuegos artificiales  
-🎇 Bengala  
-🧨 Petardo  
-✨ Brillo  
 💫 Mareo  
 🌟 Estrella brillante  
 ⭐ Estrella  
-🌠 Estrella fugaz  
 🌙 Luna  
 🌞 Sol con cara  
 ☀️ Sol  
 ⚡ Rayo  
-🔥 Fuego  
 💧 Gota de agua  
 🌊 Ola  
-🌈 Arcoíris  
 ❄️ Copo de nieve  
 ☃️ Muñeco de nieve  
 🌪️ Tornado  
@@ -1056,7 +887,6 @@ EMOJI=$(cat <<EOF
 🌖 Gibosa menguante  
 🌗 Cuarto menguante  
 🌘 Luna menguante  
-🌙 Luna creciente fina  
 🌚 Luna nueva con cara  
 🌝 Luna llena con cara  
 🌛 Luna creciente con cara  
@@ -1070,14 +900,8 @@ EMOJI=$(cat <<EOF
 🗯️ Globo de enojo  
 💭 Globo de pensamiento  
 💢 Símbolo de enojo  
-💤 Símbolo de sueño  
 🕳️ Agujero  
 🩸 Sangre o gota roja  
-💉 Jeringa  
-💊 Pastilla  
-🩹 Curita  
-🩼 Muleta  
-🩺 Estetoscopio  
 🩻 Radiografía  
 ⚕️ Símbolo médico  
 ⚰️ Ataúd  
@@ -1089,7 +913,6 @@ EMOJI=$(cat <<EOF
 ☯️ Yin y yang  
 ☮️ Símbolo de paz  
 🕉️ Om  
-🔯 Pentagrama  
 ♈ Aries  
 ♉ Tauro  
 ♊ Géminis  
@@ -1128,51 +951,13 @@ EMOJI=$(cat <<EOF
 🔕 Campana silenciada  
 🎵 Nota musical  
 🎶 Notas musicales  
-🎼 Partitura  
 📯 Cuerno postal  
-🎷 Saxofón  
-🎺 Trompeta  
-🎸 Guitarra  
-🎻 Violín  
-🎹 Piano  
-🥁 Tambor  
-🪈 Flauta  
 🕹️ Joystick  
-🎮 Control de videojuego  
-🎰 Tragamonedas  
-🎲 Dado  
-🧩 Rompecabezas  
 🧸 Osito de peluche  
-🎎 Muñecos japoneses  
-🎏 Bandera de carpa  
-🎐 Campanilla de viento  
-🎋 Bambú de Tanabata  
-🎍 Decoración de Año Nuevo  
-🎑 Festival de la luna  
-🎀 Lazo  
-🏮 Linterna japonesa  
-🪔 Lámpara de aceite  
 🔮 Bola de cristal  
-🕯️ Vela  
-🪄 Varita mágica  
 💠 Flor decorativa  
-🔶 Rombo naranja  
-🔷 Rombo azul  
-🔸 Pequeño rombo naranja  
-🔹 Pequeño rombo azul  
-🔺 Triángulo rojo arriba  
-🔻 Triángulo rojo abajo  
-🔸 Círculo pequeño naranja  
-🔹 Círculo pequeño azul  
 🏧 Cajero automático  
-🚮 Basura  
-🚰 Agua potable  
 ♿ Accesibilidad / silla de ruedas
-🚹 Hombres  
-🚺 Mujeres  
-🚻 Baños  
-🚼 Bebé  
-🚾 WC  
 🛂 Control de pasaportes  
 🛃 Aduana  
 🛄 Reclamo de equipaje  
@@ -1182,9 +967,7 @@ EMOJI=$(cat <<EOF
 ⛔ No pasar  
 🚫 Prohibido  
 🚳 No bicicletas  
-🚭 No fumar  
 🚯 No botar basura  
-🚱 No agua potable  
 🚷 Prohibido el paso  
 📵 No teléfonos  
 🔞 Solo mayores de 18  
@@ -1198,8 +981,6 @@ EMOJI=$(cat <<EOF
 ↘️ Flecha diagonal abajo  
 ↖️ Flecha diagonal izquierda  
 ↙️ Flecha diagonal abajo izquierda  
-🔁 Repetir  
-🔂 Repetir una vez  
 🔄 Recargar  
 🔃 Giro  
 🔙 Flecha atrás  
@@ -1213,7 +994,6 @@ EMOJI=$(cat <<EOF
 🆒 Cool  
 🆓 Gratis  
 🆖 No bueno  
-🆗 OK  
 🆘 SOS  
 🆚 Versus  
 💯 Cien puntos / 100 % / cien porciento
@@ -1223,11 +1003,6 @@ EMOJI=$(cat <<EOF
 🔣 Símbolos  
 🔤 Letras  
 ℹ️ Información  
-🔤 Letras latinas  
-🔢 Números  
-🔣 Símbolos  
-🔠 Mayúsculas  
-🔡 Minúsculas  
 🈚 Sin cargo  
 🈯 Reservado  
 🈳 Disponible  
@@ -1246,31 +1021,11 @@ EMOJI=$(cat <<EOF
 🈁 Aquí  
 🉐 Oferta especial  
 🉑 Aceptable  
-💮 Sello  
-✅ Aprobado  
-🪪 Identificación  
-🏧 Cajero automático  
 🎫 Entrada  
 🎟️ Boletos  
 🎗️ Cinta de apoyo  
-🔖 Marcador  
 🏷️ Etiqueta  
 🔗 Enlace  
-🧾 Recibo  
-📜 Pergamino  
-📄 Documento  
-📃 Hoja  
-📑 Marcadores  
-📚 Libros  
-📖 Libro abierto  
-📘 Libro azul  
-📙 Libro naranja  
-📗 Libro verde  
-📕 Libro rojo  
-📓 Cuaderno  
-📒 Libreta  
-📔 Diario  
-📚 Pila de libros  
 🇦🇫 Afganistán  
 🇦🇱 Albania  
 🇩🇿 Argelia  
@@ -1280,7 +1035,6 @@ EMOJI=$(cat <<EOF
 🇦🇮 Anguila  
 🇦🇶 Antártida  
 🇦🇬 Antigua y Barbuda  
-🇦🇷 Argentina  
 🇦🇲 Armenia  
 🇦🇼 Aruba  
 🇦🇺 Australia  
@@ -1299,7 +1053,6 @@ EMOJI=$(cat <<EOF
 🇧🇴 Bolivia  
 🇧🇦 Bosnia y Herzegovina  
 🇧🇼 Botsuana  
-🇧🇷 Brasil  
 🇮🇴 Territorio Británico del Océano Índico  
 🇻🇬 Islas Vírgenes Británicas  
 🇧🇳 Brunéi  
@@ -1308,17 +1061,13 @@ EMOJI=$(cat <<EOF
 🇧🇮 Burundi  
 🇰🇭 Camboya  
 🇨🇲 Camerún  
-🇨🇦 Canadá  
 🇨🇻 Cabo Verde  
 🇧🇶 Bonaire, San Eustaquio y Saba  
 🇰🇾 Islas Caimán  
 🇨🇫 República Centroafricana  
 🇹🇩 Chad  
-🇨🇱 Chile  
-🇨🇳 China  
 🇨🇽 Isla Christmas  
 🇨🇨 Islas Cocos  
-🇨🇴 Colombia  
 🇰🇲 Comoras  
 🇨🇬 Congo  
 🇨🇩 República Democrática del Congo  
@@ -1345,14 +1094,12 @@ EMOJI=$(cat <<EOF
 🇫🇴 Islas Feroe  
 🇫🇯 Fiyi  
 🇫🇮 Finlandia  
-🇫🇷 Francia  
 🇬🇫 Guayana Francesa  
 🇵🇫 Polinesia Francesa  
 🇹🇫 Territorios Australes Franceses  
 🇬🇦 Gabón  
 🇬🇲 Gambia  
 🇬🇪 Georgia  
-🇩🇪 Alemania  
 🇬🇭 Ghana  
 🇬🇮 Gibraltar  
 🇬🇷 Grecia  
@@ -1370,16 +1117,13 @@ EMOJI=$(cat <<EOF
 🇭🇰 Hong Kong  
 🇭🇺 Hungría  
 🇮🇸 Islandia  
-🇮🇳 India  
 🇮🇩 Indonesia  
 🇮🇷 Irán  
 🇮🇶 Irak  
 🇮🇪 Irlanda  
 🇮🇲 Isla de Man  
 🇮🇱 Israel  
-🇮🇹 Italia  
 🇯🇲 Jamaica  
-🇯🇵 Japón  
 🎌 Banderas cruzadas (símbolo)  
 🇯🇪 Jersey  
 🇯🇴 Jordania  
@@ -1410,7 +1154,6 @@ EMOJI=$(cat <<EOF
 🇲🇷 Mauritania  
 🇲🇺 Mauricio  
 🇾🇹 Mayotte  
-🇲🇽 México  
 🇫🇲 Micronesia  
 🇲🇩 Moldavia  
 🇲🇨 Mónaco  
@@ -1451,7 +1194,6 @@ EMOJI=$(cat <<EOF
 🇶🇦 Catar  
 🇷🇪 Reunión  
 🇷🇴 Rumania  
-🇷🇺 Rusia  
 🇷🇼 Ruanda  
 🇼🇸 Samoa  
 🇸🇲 San Marino  
@@ -1469,9 +1211,7 @@ EMOJI=$(cat <<EOF
 🇸🇴 Somalia  
 🇿🇦 Sudáfrica  
 🇬🇸 Islas Georgia del Sur y Sandwich del Sur  
-🇰🇷 Corea del Sur  
 🇸🇸 Sudán del Sur  
-🇪🇸 España  
 🇱🇰 Sri Lanka  
 🇸🇩 Sudán  
 🇸🇷 Surinam  
@@ -1497,8 +1237,6 @@ EMOJI=$(cat <<EOF
 🇺🇬 Uganda  
 🇺🇦 Ucrania  
 🇦🇪 Emiratos Árabes Unidos  
-🇬🇧 Reino Unido  
-🇺🇸 Estados Unidos  
 🇻🇮 Islas Vírgenes de EE. UU.  
 🇺🇾 Uruguay  
 🇺🇿 Uzbekistán  
@@ -1511,13 +1249,6 @@ EMOJI=$(cat <<EOF
 🇾🇪 Yemen  
 🇿🇲 Zambia  
 🇿🇼 Zimbabue  
-🇺🇳 Naciones Unidas  
-🏴 Bandera negra  
-🏳️ Bandera blanca  
-🏁 Bandera de meta  
-🚩 Bandera triangular  
-🏳️‍🌈 Bandera arcoíris
-🏳️‍⚧️ Bandera transgénero
 EOF
 )
 

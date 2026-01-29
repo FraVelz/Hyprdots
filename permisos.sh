@@ -80,6 +80,7 @@ CONFIG_DIRS=(
     "kitty"
     "wallpapers"
     "fastfetch"
+    "ranger"
 )
 
 # Directorio base de configuración
@@ -132,6 +133,17 @@ if [ -d "$SCRIPTS_DIR" ]; then
         print_success "Scripts - Permisos de ejecución otorgados"
     } || {
         print_warning "Algunos scripts no pudieron recibir permisos de ejecución"
+    }
+fi
+
+# Procesar scope.sh y scripts en ranger
+RANGER_DIR="$CONFIG_BASE/ranger"
+if [ -d "$RANGER_DIR" ]; then
+    print_info "Otorgando permisos de ejecución a scope.sh (ranger)..."
+    [ -f "$RANGER_DIR/scope.sh" ] && chmod +x "$RANGER_DIR/scope.sh" 2>/dev/null && {
+        print_success "Ranger scope.sh - Permisos de ejecución otorgados"
+    } || {
+        print_warning "scope.sh no encontrado o no se pudieron aplicar permisos"
     }
 fi
 
