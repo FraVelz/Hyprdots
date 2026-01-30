@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 1
+sleep 2
 hyprctl dispatch workspace 1 && firefox &
 
 sleep 1

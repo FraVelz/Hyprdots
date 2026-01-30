@@ -274,6 +274,7 @@ def reload_hyprland(dry_run=False):
         ("killall waybar 2>/dev/null; waybar &", "Recargando Waybar"),
         ("hyprctl reload", "Recargando Hyprland"),
         ("killall hyprpaper 2>/dev/null; hyprpaper & disown", "Recargando Hyprpaper"),
+        ("killall mako 2>/dev/null; mako & disown", "Recargando Mako (notificaciones)"),
     ]
     
     for cmd, desc in commands:

@@ -30,6 +30,50 @@ function parse_git_branch {
 	fi
 }
 
+function a(){
+  cd ~/Documentos/WEB/
+  ranger
+}
+
+# create-web: Astro + countdown (ms) → editor → pnpm dev
+# Uso: create-web <nombre-proyecto> [segundos-countdown]
+#
+# Personalizar segundos del contador:
+#   1) Por defecto (si no pasas segundo arg): cambia el "3" en la línea de abajo.
+#   2) En cada llamada: create-web mi-proyecto 10   → 10 s
+function create-web(){
+  local name="${1:?Uso: create-web <nombre-proyecto> [segundos-countdown]}"
+  local countdown_sec="${2:-3}"
+  local step_ms=100
+  local remaining_ms=$(( countdown_sec * 1000 ))
+  local url="http://localhost:4321"
+
+  pnpm create astro@latest "$name" -- --template minimal --yes || return 1
+  cd "$name" || return 1
+
+  echo "Página web creada."
+  echo "Abriendo editor en ${countdown_sec} s (countdown en ms)..."
+  echo ""
+
+  while (( remaining_ms >= 0 )); do
+    local s=$(( remaining_ms / 1000 ))
+    local ms=$(( remaining_ms % 1000 ))
+    printf '\r  ⏱  %d.%03d s → 0.000 s   ' "$s" "$ms"
+    (( remaining_ms <= 0 )) && break
+    sleep 0.1
+    (( remaining_ms -= step_ms ))
+  done
+
+  printf '\r  ✓ Listo. Abriendo editor. Servidor: %s   \n' "$url"
+
+  if command -v code &>/dev/null; then
+    code .
+  else
+    echo "code (VS Code) no encontrado; omite abrir editor."
+  fi
+   pnpm astro add tailwind --yes
+  pnpm run dev
+}
 # Agregar target (ip victima) a el waybar (por medio del archivo)
 
 function settarget(){

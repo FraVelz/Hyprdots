@@ -81,6 +81,7 @@ CONFIG_DIRS=(
     "wallpapers"
     "fastfetch"
     "ranger"
+    "mako"
 )
 
 # Directorio base de configuración
