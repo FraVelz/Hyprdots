@@ -1,12 +1,19 @@
 #!/bin/bash
 
+sleep 3
+hyprctl dispatch workspace 1 
+sleep 0.5
+firefox &
+
 sleep 2
-hyprctl dispatch workspace 1 && firefox &
-
+hyprctl dispatch workspace 2 
 sleep 1
-hyprctl dispatch workspace 2 && code &
+code &
 
+sleep 2
+
+hyprctl dispatch workspace 3 
 sleep 1
-hyprctl dispatch workspace 3 && kitty &
+kitty &
 
 # Autor: Fravelz
